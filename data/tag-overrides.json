@@ -1,0 +1,10 @@
+{
+  "_readme": "Hand corrections keyed by the entry's source URL. Each value may have: add (tags to add), remove (tags to remove), primaryCategory (replaces the badge category). Valid tags: Full Robot, Drivetrain (Mecanum/Tank), Swerve Drive, Intake, Claw / Gripper, Linear Slides / Extension, Turret, Shooter, Differential / PTO, Dead Axle Wheel, Vector Wheel, Camera Mount, Drone Launcher, Number Plate / Misc. After editing, run: npm run build-data",
+  "_example": {
+    "https://cad.onshape.com/documents/EXAMPLE/w/EXAMPLE/e/EXAMPLE": {
+      "add": ["Turret"],
+      "remove": ["Camera Mount"],
+      "primaryCategory": "Full Robot"
+    }
+  }
+}

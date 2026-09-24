@@ -14,7 +14,7 @@ export function getSeasonOptions(entries: CadEntry[]): string[] {
 }
 
 export function getMechanismOptions(entries: CadEntry[], canonicalOrder: string[]): string[] {
-  const present = new Set<string>(entries.map((e) => e.mechanismCategory));
+  const present = new Set<string>(entries.flatMap((e) => e.tags));
   return canonicalOrder.filter((c) => present.has(c));
 }
 

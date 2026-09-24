@@ -11,7 +11,8 @@ export interface CadEntry {
   thumbnail: string | null;
   program: Program;
   season: string;
-  mechanismCategory: string;
+  primaryCategory: string;
+  tags: string[];
   cadPlatform: CadPlatform;
   needsReview: boolean;
   reviewReason: string | null;

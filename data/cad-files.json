@@ -8,7 +8,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d6f608a4-3040-4570-b2f8-d9440996c2fd/62183598-02fa-475b-9b86-ac6819563946.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -22,7 +31,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6b56f4ef-c8a2-4507-9f96-460f76461078/5277a845-9b96-4a44-9b40-3f8b8e6281fc.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -36,7 +53,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0d1cfd1d-29cb-40d1-97c1-6ef159173be9/315e19fd-3e67-4c95-986c-6cf7732ac555.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Poppy MTI final.step | Poppy MTI v2\", defaulted to Full Robot"
@@ -50,7 +74,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/eaa8b519-718c-40e0-b05c-34dc93f6076f/da681132-454a-469a-a680-63b766d5f99b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -64,7 +91,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f6351bbe-0a15-427a-ab05-3da2a96e8d07/48bb5176-85b3-4766-837f-ec738935afaa.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -78,7 +108,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7fb5ee54-baa7-45a7-b652-361fa73318c4/ff15ce72-9257-4839-b9f5-69429a30013e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Stegorocktopus | fullBot\", defaulted to Full Robot"
@@ -92,7 +132,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/caf80faa-97fe-4486-97e2-54896cdf106d/942f434e-3904-4a23-b93a-196ddbecded0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Linear Slides / Extension",
+      "Turret",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -106,7 +152,18 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6b310f54-ff5e-4c22-b764-3e542a96b07e/047c2331-3201-4c76-81d5-46db2886dc38.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -120,7 +177,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1a201ab2-4a2d-4c63-8139-fefcca0e3645/d7e34d2b-91b0-41ac-a85b-8490a99b93f6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Main | Full\", defaulted to Full Robot"
@@ -134,7 +199,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3743a370-6265-43ea-b7d7-e4c555dd9e35/cb388964-8e77-4d35-8f2a-50aee150e3ec.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Overtime | OVERTIME\", defaulted to Full Robot"
@@ -148,7 +219,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/63defcec-c6e5-40ed-a712-d60ac3aa059d/a755c0b7-2735-421f-b128-127509e79c76.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Retux | Retux\", defaulted to Full Robot"
@@ -162,7 +240,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/54af68f6-0419-46d4-982e-6881ad219043/267b2c2f-082e-433e-9e90-5f5c1ca128b7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -176,7 +260,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7d538fa5-2d07-42b2-a805-ddd58ddf7ecd/3f0cbff0-f11b-4237-b3f5-09076e284553.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Tux | Tux\", defaulted to Full Robot"
@@ -190,7 +280,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/aa731902-e7e6-4aad-9842-725ea1c2b563/89581b51-f30c-4a09-95a3-18df20d711c7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -204,7 +297,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/858aab62-23cc-4359-b470-358a50ffa4eb/aa3bd2e5-4501-4515-a5d8-c069bdff2358.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -218,7 +318,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/61d641f2-cdc0-4b28-a364-e4c9f3f3a4d8/3d037bed-dbca-4429-9f6e-d15b544689d5.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -232,7 +335,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ead693da-fc1b-4c5c-845d-b92b0a3efca5/b6fffece-eea0-41ca-a4aa-090d3b0863a5.png",
     "program": "FRC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -246,7 +353,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c1493578-60b9-4dd1-b158-872506d49fd6/205fa6b0-2476-4d5e-a885-c8026b4370b4.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -260,7 +370,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/40ef0fda-8a74-4e9e-8e8a-11c60908588f/56c74285-b89d-4437-a3e8-8b22b4e19365.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -274,7 +393,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/dbf64cba-731f-4c8b-90bb-d87e882e11b1/dec58f9f-e9f1-44c3-a692-fd00ce9d326a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -288,7 +414,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7a9c80e4-ad92-475d-8be4-f703dede197e/ef3c0ef5-35a8-4402-8440-50f8420133b2.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Retux | FINAL\", defaulted to Full Robot"
@@ -302,7 +435,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/66cc0429-5735-4d12-aa74-60d2c4a34dd1/bdb08a93-b073-4737-a23a-126fd811e3be.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Sedulous | Sedulous\", defaulted to Full Robot"
@@ -316,7 +455,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d6d4d574-2368-440c-b992-209b418c2ac3/96b07def-45fa-411e-b1f1-44c858d79655.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"QR-23-A-0000.STEP | QR-23-A-0000\", defaulted to Full Robot"
@@ -330,7 +472,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6206c9b8-e81c-426b-8dcc-5b60d5e236a3/8bb0f36f-cdc4-4253-a82b-b2da26aeee34.png",
     "program": "FTC",
     "season": "Skystone",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Claw / Gripper",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -344,7 +492,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/284c71ef-16c2-4bd5-a4b9-3932d1d94397/ef5ed2ee-7924-4492-b936-55150f0dcfc6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -358,7 +514,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3c9cc6f5-f2a4-48ee-90f2-fcae42097320/0661be3b-24a2-4ba0-bca1-bb24b7782f40.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Poppy MTI final.step | Poppy MTI v2\", defaulted to Full Robot"
@@ -372,7 +535,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fdd88936-048f-43a8-bc7c-b03bded8ca5f/c732f78f-c2c8-46d6-8abb-c4ceb8ee021e.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -386,7 +552,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/aee9cfce-99e4-4b34-b874-4ea28436c2f9/8b798650-8597-4eeb-a7c8-b45efeed1023.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -400,7 +574,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/41fe2a81-ad8b-49b7-956b-9142bc98492d/e8562312-ef79-4593-b409-98ba69dfe25f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -414,7 +596,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ce637e48-17fb-414f-aa7c-54a4a8bb45a0/a3fb43e2-1954-4efd-b79a-fb9ceefe7a84.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Claw / Gripper",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -428,7 +615,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b5253b70-bda9-407b-95c3-a0787abf9608/01b3a8ff-ffb6-4b3d-9d1b-025660450238.png",
     "program": "FTC",
     "season": "Skystone",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Full Robot",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -442,7 +635,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fa1c87ef-c4bd-438d-87c4-78dc7e1dd296/6133bb89-ddf8-4814-bed7-4b44665baab6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -456,7 +657,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0f1575a2-60b2-45d0-957d-55f64a2a55bd/68b63d02-08ba-441f-ad13-d7cb207ace77.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -470,7 +679,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/58b395d8-3436-4a77-a523-bb4a882e0c66/eb3632b3-89a8-4b4f-8968-02003df593fe.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Turret",
+      "Differential / PTO",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -484,7 +702,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c5da12c2-280d-4552-8a14-3c1653dbed94/0d869d05-4ad3-4fdc-b81e-958f59a077e9.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -498,7 +726,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6ad56a51-f7fc-43fd-a7c5-f239d18078bf/60175a17-802d-4c30-a0fe-ce53a8b6b339.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Hydra Shadow - AUTODESK FUSION\", defaulted to Full Robot"
@@ -512,7 +743,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7f7c1c93-59fc-46cf-9ba4-2271ef49f33c/fb93238f-71de-4dee-9183-b2c7e1ed8c40.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Turret",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -526,7 +767,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/53cea66e-c4a3-4463-9284-2ea5232fa23f/f9156241-2ee1-4f7f-ac1e-1293e61f4a58.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"Gear Wizards CAD ITD | Aluminium v38\"; no mechanism keyword matched \"Gear Wizards CAD ITD | Aluminium v38\", defaulted to Full Robot"
@@ -540,7 +785,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ac53ba3f-c6c3-4e71-b4dc-6dfcb820f587/64700726-234a-4535-80f6-d7d334f7e506.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"VORTEX 18603 V6 | VORTEX\", defaulted to Full Robot"
@@ -554,7 +806,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/823ce054-cbcc-4a19-94d4-a04890a971ad/1fbea3fa-92a9-4139-a2f0-ed7fd095f0c0.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -568,7 +828,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a965ff76-9d76-4e9f-859c-a3bf4ce87689/66c0e31b-e0e3-43f7-99aa-1cf17c8c42b8.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -582,7 +850,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bd9b4bb1-3744-41c2-9514-9b3cb716b470/198e802d-edc5-4937-a8f1-fb0a77dcbe5a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Linear Slides / Extension",
+    "primaryCategory": "Linear Slides / Extension",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -596,7 +873,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/37228be5-633f-4c11-97ee-e62b2282e299/6779925e-9c1a-4ff1-8272-c26dc1ad2072.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Linear Slides / Extension",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -610,7 +893,18 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bea53388-6984-4db1-963a-aa1bd12cf0c8/4c3787f4-7582-4b29-bc9d-50a7571a1827.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -624,7 +918,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ec3903a4-5603-4f16-9903-92bb44d83396/d5fb6f80-c649-48b9-8e04-b42f6002e6d4.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"18270 RoboPlayers - Into the Deep | assem v1\", defaulted to Full Robot"
@@ -638,7 +935,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e7605018-e621-49be-9fc5-e03c0ffbfc76/9c9ffe57-086f-43af-87c8-0022aade093b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"finalfinalfinal - AUTODESK FUSION\", defaulted to Full Robot"
@@ -652,7 +952,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c6eae02d-99de-47a6-9903-3236c25906de/ca7d56ba-d95a-45a8-bf0a-ace2d693b197.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"newmecha - AUTODESK FUSION\", defaulted to Full Robot"
@@ -666,7 +969,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ca6bb7ca-3c5e-49cd-b65b-e79b665ed3c2/41698fd2-aaac-4df1-95ad-8bcf7ab8cb4a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Intake",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -680,7 +988,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a4386127-4e1d-4483-98d1-b7bae3cadbf4/94fd945a-50d2-4143-965a-077234e2535b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -694,7 +1010,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/34be7293-4ae5-4e55-a78a-813c59103c89/237f16ea-b9e7-49ba-bae2-be22c1fc66d3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Peterbot | Peterbot\", defaulted to Full Robot"
@@ -708,7 +1027,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6bdbf293-ba82-4159-a7e5-104133ca4541/3fca8d2a-ab9e-49e6-9a5c-4603848847c7.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -722,7 +1047,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a8be4f41-dfc1-4273-8925-19d67215257d/8db57f36-dabb-4f8a-9bf8-7fde80f40203.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Turret",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -736,7 +1069,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5f483163-7088-44ae-af86-7f642d2bf5a1/539eacbb-e810-4d55-a0d9-a5fa3f51f572.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Differential / PTO",
+      "Dead Axle Wheel",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -750,7 +1092,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a559f4c0-8219-490d-a46b-a18c9a66eeb4/514adc0f-8fbb-43f6-a683-4ed42f4e4469.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"UFORCE-Final - AUTODESK FUSION\", defaulted to Full Robot"
@@ -764,7 +1109,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/36e3a378-8179-4606-b9f7-f4b345db275d/af258220-01c8-4bd2-bc9d-c88624fba7f6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -778,7 +1133,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5eeb23c6-fdf7-4d01-8597-586b405d261a/640ee2e2-517b-474c-ae72-de4dd19922e6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Peru's Bonsai Tree | Robit\", defaulted to Full Robot"
@@ -792,7 +1153,18 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/572cd78a-7a50-405c-ac87-f66556bd9d46/b4fe0b4d-94e1-4b22-89ab-0d872e64f988.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Turret",
+      "Differential / PTO",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -806,7 +1178,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d48a6515-a6c8-47d2-b0b0-9f0b1b498e24/00e80de6-0ce4-4000-bed5-631d437b752b.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"Caesar Circuitry ITD OA | Assembly 1\"; no mechanism keyword matched \"Caesar Circuitry ITD OA | Assembly 1\", defaulted to Full Robot"
@@ -820,7 +1199,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b08121c0-6b99-4d27-ae98-1a133681a6d6/f7105107-aa83-4004-b1ef-d7505cfee386.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Fishu-MTI - AUTODESK FUSION\", defaulted to Full Robot"
@@ -834,7 +1216,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/76d6f3e1-96c5-48ee-a618-1c537c6fd35e/a4cdfa61-1b29-4f66-94fa-414676bfb7d9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Cosmobots 2025 PUBLIC - AUTODESK FUSION\", defaulted to Full Robot"
@@ -848,7 +1233,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/123571ec-7fcf-4000-b4da-96fcd27dad60/9e9721cf-ec10-45fb-ab44-011ac50cc663.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Centerstagev5 | MainAssembly\", defaulted to Full Robot"
@@ -862,7 +1253,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7a178820-55f5-4ff4-b7d4-1c8e712e3f20/f0e57879-764d-4427-aee6-12ddb615ad00.png",
     "program": "FTC",
     "season": "Power Play",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "GrabCAD",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"2023 FTC \"Power Play\" CAD | Team 11329 'I.C.E. Robotics' | GLACIER | 3D CAD Model Library | GrabCAD\", defaulted to Full Robot"
@@ -876,7 +1270,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/039711b8-5af7-4407-8014-56a4417c9902/73987c1a-3136-4f19-9426-d00fc02e2584.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "GrabCAD",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"2023-4 Centerstage Avalanche | 3D CAD Model Library | GrabCAD\", defaulted to Full Robot"
@@ -890,7 +1287,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3721c1c1-5576-483b-b1b4-8d64c8c2c6ef/b49e152f-8065-471c-b9e9-beea45f4ed7f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Assembly - AUTODESK FUSION\", defaulted to Full Robot"
@@ -904,7 +1304,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e880bf3c-1a3a-40f5-9b74-5659d165f9f0/7e2e940c-07a5-48d0-8fd9-303f9ec732df.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -918,7 +1325,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ba9449ff-b714-4dde-b4ca-292abadc8ee0/4abfb0eb-49d2-48c9-935f-22c642633cf3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Vortex MTI | MASTER\", defaulted to Full Robot"
@@ -932,7 +1343,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/425aedf6-bbe9-448e-bf5c-970d2cd3bf73/4c6aca66-8199-4f38-9ebf-81c2e9a7fbd6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Differential / PTO",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -946,7 +1366,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9fea6b1f-acc2-4979-b993-5bab0d0f77d6/378944f2-3b23-4795-8ced-823ce66c602b.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Turret",
+      "Differential / PTO",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -960,7 +1389,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1e2fbdca-4586-4c43-85d5-550a01cdd62f/0a23cecc-fd65-49ef-a0d9-cec6ee0f200c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"7244 - Orca | Final Assem\", defaulted to Full Robot"
@@ -974,7 +1406,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1e9cb972-6df1-47dc-a8c7-7b538997585e/0a0f444d-5d41-4bf6-a3ec-85ed7ef0dcb9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"WARTORTLE_public | MTI\", defaulted to Full Robot"
@@ -988,7 +1423,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/342dbb1d-6f6e-4175-9eb7-466fb3df33c1/d754437e-86aa-4c76-b9de-a250307b3258.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Master-11329 | Clean (as a Cucumber)\", defaulted to Full Robot"
@@ -1002,7 +1447,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/db981dde-e6f9-4892-85aa-14ec46330cd6/fcca1b51-6c5e-45af-9b96-8c8716dcff9e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1016,7 +1469,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c15547e8-cfc4-4a18-9309-8ec88d8cb41a/62979f2f-f399-4c0b-a586-70453b6d26da.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"NOVA | FINALROBOT\", defaulted to Full Robot"
@@ -1030,7 +1489,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f52c7c8c-5022-4305-821f-3befae116755/895603f4-2a41-4e47-be87-8cbea217e2c3.png",
     "program": "FTC",
     "season": "Centerstage",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1044,7 +1512,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/54ec6c8f-3faa-4f24-a5d4-200832210b6c/60f9332b-447b-4cc3-9e7a-a897179d5bac.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"RKA PP-ITD Cad - Google Drive\"; no mechanism keyword matched \"RKA PP-ITD Cad - Google Drive\", defaulted to Full Robot"
@@ -1058,7 +1529,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9d4ba331-14b6-450b-ab13-b173faa1cfd1/c32d2992-d389-4841-9e50-a400e209d011.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Differential / PTO",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1072,7 +1551,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7a80a44d-7550-4cb8-a9ab-543e1201c14c/34d337af-d57a-4178-a4c0-621a98847aee.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Ri16H 19049 High Five Robotics | Sasiu\", defaulted to Full Robot"
@@ -1086,7 +1568,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/969965b1-cc0f-47d1-bda4-4845a7d9d6fc/91c15a71-9404-4566-9d7e-c561b389e15c.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1100,7 +1592,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/64fff31b-8499-4ace-80f1-7728e5adb429/74a7c2b6-cb2d-44f7-bc2c-1bb9eeecf7fd.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Shooter"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1114,7 +1610,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6dd4576c-d1e9-49bb-9347-23376bbd75fb/b86b80e5-8966-4a39-801c-f28c8a343731.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1128,7 +1629,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f410adfe-bbb7-4063-9a33-ce8399aa1c61/48a0ece5-edea-4299-b9e7-89d816e73d5d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Shooter"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"ironsides 2025 | Assembly 1\", defaulted to Full Robot"
@@ -1142,7 +1649,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/45cf1b44-4beb-4dd2-bdf9-09d2175f7f23/985c38f9-734c-4df9-8a4d-4eaca10fa2e3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"teamwork makes the dreamwokr ngl | Revival\", defaulted to Full Robot"
@@ -1156,7 +1672,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/2ef6308a-9a53-4910-8ae8-1646f490d5cf/107cab21-858c-4cc8-850c-33301b8683c7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1170,7 +1692,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3d9b4ca2-f7b6-4a5a-a377-7b93ea2ce1fc/554eea80-40ef-45bc-b074-1612454f09a8.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1184,7 +1715,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e156baf4-8bce-43b4-9cd3-f1cae738f3f5/4f7001c4-c860-4cf1-902b-804742254e8b.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1198,7 +1732,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e0286f63-ee76-459d-ad78-3d00667eac46/fe21c656-5ff7-4021-af46-0e7b8f7c815f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Vector Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1212,7 +1755,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/71084a25-5c3a-40a7-a025-478af17865c7/c3bd5648-7d36-409a-a569-17c043c431e5.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Vector Wheel",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1226,7 +1778,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6540ae90-e405-4f87-bfca-88a69efeb1e3/7549be3a-57fd-40d2-b09c-024ea14e594a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Turret",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1240,7 +1799,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8c232a81-0a5a-464b-804b-c42bfb324459/6d0e0e8c-320b-4bc4-abb0-3ab62f94d1de.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1254,7 +1823,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8bcd7492-88a5-46ab-acb5-e4db1699a6cf/6282a81a-b708-47e0-bc77-a20a0e2e2223.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1268,7 +1843,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8b7a8da5-f0d2-4ac7-832d-e3f3c2c477bf/7d97ba36-5eda-443e-a14f-a93627b613c0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Turret",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1282,7 +1863,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/52559967-bbc2-4094-a371-c880f84f9369/40f21694-5580-4f53-b963-a722c7bd69c0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1296,7 +1885,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/25166d11-5907-4626-b108-ed73ea89cd8f/6fb1195f-5265-4a8f-868b-df01c09ba689.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Turret"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1310,7 +1904,15 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fd106fb3-1c6c-4354-b6e3-68b6e7494c25/0f810b51-1ec5-428a-a3bf-14c0543dbc9c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Shooter",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1324,7 +1926,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1f472cd2-dd46-4f57-a343-b2a8df74ab9b/78de6a04-5ff2-4972-b782-a3d299f0271e.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1338,7 +1950,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1b69cd4e-dbce-44a3-8a24-0b09b4ca373d/ecf08510-398f-496e-9d71-68962fafbfb2.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1352,7 +1974,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/32a74a3f-3ae1-4e8c-a29b-d6aaa9e26906/92c2ee0d-81f5-4862-8a3e-59855efdcbbf.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Vector Wheel",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1366,7 +1997,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0e518c25-c4a0-4041-b4ac-47195e1b9ba3/d3bef8e1-db76-44fb-8e75-beb53ce4c1cf.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1380,7 +2018,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d188d6bd-0cc0-4006-94eb-20fd1f927a2c/e54d4458-18ec-4c87-aec3-511f7cf85fb3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1394,7 +2036,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b4e8a9ba-5ede-4f09-b8fe-fc592510ddc5/65550e2e-c82e-4d05-96be-a567f3b98179.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1408,7 +2053,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a2feb3e3-bc0c-4e98-92c8-5b39a8e681c6/e2a00371-e1ef-4cea-b2ab-6eff2812e85c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"DUGTRIO_public | Assembly 1\", defaulted to Full Robot"
@@ -1422,7 +2070,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1ea3dfee-86f3-4bc3-a56a-57bb616af79c/8aa20800-e7c5-4dfa-85dd-2a220a1d5672.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Vector Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1436,7 +2094,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e88f2c68-09c2-41a5-b5cc-8f55d50f7d01/51d30ecb-338c-449c-aa17-0cf54bdc3686.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Hails torm | Shrubbery\", defaulted to Full Robot"
@@ -1450,7 +2118,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/728a2a18-25e4-4301-9c92-01110c40f31c/d162aa96-b4f9-419d-bfac-eab782f0fee3.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"FTC 12682 Decode State & League Champs PUBLIC RELEASE | Public Release State & League Champs\", defaulted to Full Robot"
@@ -1464,7 +2135,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/24b3141d-41dd-4722-857f-f8f66e1d0c37/5cadc269-1346-426a-a5ec-c72e33f67082.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"FTC 12682 Decode World Champs PUBLIC RELEASE | Public Release World Champs\", defaulted to Full Robot"
@@ -1478,7 +2152,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9ad5e597-843f-41f8-8989-532a72cae608/9d8a02da-27d3-4ce6-9971-55aa7007a930.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1492,7 +2172,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c04a2d10-c76a-4265-8b2b-a29169b371f0/71d62865-91e5-4c3b-840e-cc2b515a99c3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Differential / PTO",
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1506,7 +2196,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/46abe943-d47f-46eb-a85c-57b158192903/021e343d-864f-4c7a-93a7-a42c1ebfe20a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Theseus CAD - Google Drive\", defaulted to Full Robot"
@@ -1520,7 +2213,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fd613ef1-000c-44c1-a206-71781900eaf7/ad1a958e-6536-456f-96e0-645c79c8bff8.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount",
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"rosette her? I hardly Know Her! - Copy | wrobot\", defaulted to Full Robot"
@@ -1534,7 +2236,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7f551b56-5bfe-4984-bfbc-b01cca920b37/4f93d9ff-5b24-4aa5-8ae0-aefeee51731f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -1548,7 +2253,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c7153a59-65ae-4138-b2ea-6fc239dbbd7f/f9021777-aae7-421e-9b63-e518af4bebae.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Vector Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"ORACLE 18603 V3 | ORACLE\", defaulted to Full Robot"
@@ -1562,7 +2277,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4d3eaacf-9306-4a20-b807-a0312c2c17ba/27fd26b6-24ab-44d9-a01c-2250fa6b40f7.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Differential / PTO",
+      "Vector Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1576,7 +2301,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/08179716-563c-4ca3-afb1-6b6470859860/5fe37c2e-473c-4e6d-a711-8ec119a4037b.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"30030 Decode CAD Release (ROHAN☆*: .｡. o(≧▽≦)o .｡.:*☆) | V3\", defaulted to Full Robot"
@@ -1590,7 +2318,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3812c746-4ebb-4294-9668-03ae5a73b86b/211aa91a-3377-41bc-926e-a1a40076c60d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1604,7 +2335,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5510e841-dc6a-4e6f-aafc-3d95aaed3326/1fd7a3c1-84ba-42a1-8655-b54b370f1d96.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1618,7 +2354,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d60ad4b1-107e-443e-84dd-5ea8d6ba50aa/e69ef89c-596b-426f-91bd-ea7509ac0201.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"MTI | MainAssembly\", defaulted to Full Robot"
@@ -1632,7 +2371,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c92c5b9c-c806-4b43-ba87-aba8adc5cd23/3029200b-e17d-4bec-a943-ea13beeae657.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Turret / Shooter",
+    "primaryCategory": "Shooter",
+    "tags": [
+      "Shooter"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -1646,7 +2388,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/16ae612e-1d75-4be1-95f1-3b8ad1b1177c/7546aedf-238d-4ff6-b04c-4d41e84dd8af.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Turret / Shooter",
+    "primaryCategory": "Turret",
+    "tags": [
+      "Turret"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1660,7 +2405,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1338fe9a-4df0-4443-bc32-e685b41424fe/2ac211cd-773f-4f95-8a74-546048866b64.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Turret / Shooter",
+    "primaryCategory": "Shooter",
+    "tags": [
+      "Turret",
+      "Shooter"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1674,7 +2423,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4612bd9d-bb51-4d7e-ad61-78111dbc5819/1b5afa0a-e0bd-4416-9f7d-484558119cef.png",
     "program": "FTC",
     "season": "Biobuzz",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1688,7 +2440,17 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/6a8388aa-88f4-46e7-bb02-5a7583994eaf/d31db70d-350e-4f11-8766-05e2cee5fe3e.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Red Ring of Death: 2024-2025 Season | Inferno\", defaulted to Full Robot"
@@ -1702,7 +2464,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/87663b7f-f82c-4fcc-ae80-9ecbfc90127f/14c36350-08c6-4b0b-acf1-f0af38047503.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1716,7 +2483,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f76c271a-0074-408b-a631-762470b6ff1b/b38f25d8-f771-48b7-8e9d-ac45c07dfe34.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1730,7 +2500,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f7879c2b-d07c-4947-ad9d-774554ce892d/4d694edd-8baf-4faa-a50f-8849f7f003e6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1744,7 +2519,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c56a8a50-7c32-4b40-bac7-5c1f84bd5aa3/52bb447a-8222-4099-8952-81cded6942f8.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"12x12 ITD Bot v5 - AUTODESK FUSION\""
@@ -1758,7 +2536,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0ff39895-d88c-4ad2-9529-537d4edffc1a/a0697639-bd65-4ec6-b976-c4ed16ec6319.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1772,7 +2553,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0384ad5e-0645-42c4-900a-d92ff329abb7/00e29364-807f-4725-ab7b-d226023089a9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "GrabCAD",
     "needsReview": false,
     "reviewReason": null
@@ -1786,7 +2570,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/be2ba6dd-8f4e-45ca-9041-b7992d041c7f/45c64a1b-9682-4d5b-95d3-9a65525e9f13.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1800,7 +2590,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7c76b472-6e34-47be-9a36-0605d5789008/9288e986-a87d-4336-8f98-4e5b3738774d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1814,7 +2607,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8b5f7339-efe6-4ef0-a4b0-bf13d1f5ef11/fdf5eeed-cca1-45a1-85cd-1d9c2d855c92.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Turret",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1828,7 +2626,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8024e475-69b6-4a1e-8f90-27ab608fdd08/ea6996a3-1070-4471-976d-897c6a6a6853.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1842,7 +2643,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/870a1d3f-16cc-4a9e-b0d1-391fa52ef5b1/56c61632-11ae-44b6-8c25-0f2a4551e81e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1856,7 +2661,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fd89a56e-b3a1-4158-b3d6-04c67293bd8f/0952b576-921e-4d0b-970c-a6a180826343.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1870,7 +2680,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/28cabdd4-1724-482d-bea0-f6e3d7082315/506756c9-e635-4dda-a755-62e29192b209.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Linear Slides / Extension",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1884,7 +2699,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c0baf1d9-7116-443b-82c2-c1c0443c6075/83caab9b-0366-4b47-b4c6-335b94c609d7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1898,7 +2717,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/829761ad-4603-446d-8e67-54c9d9ca7d6f/1fc79c1d-5df0-4a4d-9608-216e8b985454.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1912,7 +2734,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ea000076-96c0-422f-831c-e9258624ac43/863895f0-ae4b-4334-b935-696ddfd8f97b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"what the sigma drive(s) | infinity side\", defaulted to Full Robot"
@@ -1926,7 +2752,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/08e632d5-e34d-4e10-a43e-4e9f9b68c47e/a2a56c54-7af1-45da-966c-47612912c676.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Differential / PTO",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1940,7 +2770,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5e7fa143-eb01-4db4-b4d0-1e7ced2a7b5a/75ea563c-604a-4aef-8a82-9a86d51db012.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Project Velox | v3 Right Module\", defaulted to Full Robot"
@@ -1954,7 +2787,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/87c760f9-4d37-4f16-a06e-abe4052f574f/e8152ad0-6cc2-421c-87e8-3542c8bf7e3e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1968,7 +2804,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/363ae137-125d-4406-837f-3e68d1397558/92bf10fa-7847-49b3-b55b-05bb8832a9f2.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1982,7 +2822,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fa929ce3-211e-4f44-b936-bfe89c96d4c7/a0d84ab7-703d-4c22-a7dd-f88e7f287c0a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -1996,7 +2840,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bab6bb21-9033-4aa5-91df-73c8033a4097/5bdd51ae-bdb2-473d-870b-e77c6b9d6303.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2010,7 +2857,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c61d2d0a-6449-4712-a4d2-4673a0ab161c/9f575c70-0962-4272-ac67-80facdb511f6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2024,7 +2874,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a7a57628-fb73-4fbb-9a3e-cd32fc67c8a1/be65c128-ef50-4e5c-9f64-507a98f966ce.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2038,7 +2891,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/2e1d58c4-b397-4534-b84a-a3b9ba142d26/5a8e66c2-599f-45fa-88e5-c15037e38261.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2052,10 +2908,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/df712456-f174-4b0e-8cfd-07a20236d29f/c0569a56-3f06-49a4-ac3e-1397ecc480b8.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
-    "needsReview": true,
-    "reviewReason": "no mechanism keyword matched \"Magnum Coax | Module\", defaulted to Full Robot"
+    "needsReview": false,
+    "reviewReason": null
   },
   {
     "id": "b4f84d81-7900-41ec-bd13-7f80f12f4f30",
@@ -2066,7 +2925,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b4f84d81-7900-41ec-bd13-7f80f12f4f30/c031f205-99c8-42b3-9758-a4cadfa13834.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2080,7 +2942,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9d998b40-474c-40c7-a9a6-67d976ca1c6d/e2428717-e12e-4922-9726-69f89a605396.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2094,7 +2959,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c9053e68-d111-4c28-8e1b-311cbddebde4/b81b9541-cf32-43be-b97a-8ab3df8b0d17.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2108,7 +2976,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f85ab742-1637-4c75-a774-d6a46646c188/59a0d28a-68a4-4cd8-8318-4b11e4941a90.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Project Velox | v4 Left Module\", defaulted to Full Robot"
@@ -2122,7 +2993,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/16112a87-26cc-4b73-9652-323189fcec93/b37bdd58-23e8-4e60-84f9-6d11327cf9e4.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -2136,7 +3010,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5f3204c2-b010-4699-9cf9-80f5f58510a3/14a9008b-d882-4046-83d3-c4b2a3cd9a83.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2150,7 +3027,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7092e1c0-797f-4a78-88fc-b03ad1125ea7/69b375cb-cc03-4a80-acdc-98e5536e3a1b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2164,7 +3045,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/96e6c03a-3427-4e7f-9d6d-c029334f0c78/b8c9de10-8f8a-41f5-ab28-c22ff682a993.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Intake",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2178,7 +3066,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c2e6c019-893a-4fae-89c4-26eabee9d6ad/3e881b17-ee9d-4acd-affc-3eaef13c3132.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2192,7 +3083,12 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/124b811d-a9cf-4c9d-947b-f47346783b02/3a58da6b-69b8-46fe-8162-4dafc6f09ea1.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Swerve Drive",
+    "primaryCategory": "Swerve Drive",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2206,7 +3102,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/675768a4-97fb-4d67-858a-fb2f134833fa/f6d8705b-c302-4223-9c90-1b0082011442.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2220,7 +3120,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9c1aea07-5b12-4845-aa8a-4381d9c54642/5fe0583e-f947-4421-9462-a25dba848e3b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2234,7 +3137,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b48a3360-8495-40c2-a637-7f8c044b3160/a413f7fb-266e-42bb-bdf4-8e6ab1f09557.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"ITD Intake | Intake ASM Copy 1\""
@@ -2248,7 +3154,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/dff5e036-f693-4cab-b869-f761d2072bd2/f7e88029-6ac4-475b-9427-4ed6e6f35686.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2262,7 +3171,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b05f13c9-fe60-4619-b661-b678b0c834e5/2c10379d-683b-46d7-b566-67fd353efa17.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2276,7 +3189,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bd7d460f-055e-469f-82af-59c36c732628/6ec6efca-8c16-45df-9ec3-c05d54ae03d3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake",
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2290,7 +3207,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7029a079-ea30-4caa-8429-611a715c61d9/1d732b47-3f51-49d8-95a3-c3ff2ed2a175.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2304,7 +3225,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b9a76296-ff86-4a12-920f-a043fe305b3a/6e1766c5-0679-4bb4-8dd6-c285ec4bb05a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Flappy bird | Main Assy\", defaulted to Full Robot"
@@ -2318,7 +3242,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/475abbe4-7c58-46c4-ba5a-8b89c2bae020/68114f92-8eda-4e4e-a15f-427a20b2ba94.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2332,7 +3259,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bcbba3fc-5f8d-4753-ae7d-a82bfa57dd99/37db4e64-1f11-4e0a-bc05-ab239a5ba0a7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2346,7 +3276,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ac206ca1-e203-42b8-9023-253169569955/350680d2-6f4f-4db6-a2c2-d6cc840511fc.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2360,10 +3293,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/77d41898-b09f-45ee-8923-dc1e96cf55c7/15763b47-7521-49e2-bad3-c660132f477d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
-    "needsReview": true,
-    "reviewReason": "no mechanism keyword matched \"clawclawclawcalwpy | hyperNovaClaw\", defaulted to Full Robot"
+    "needsReview": false,
+    "reviewReason": null
   },
   {
     "id": "27815a1a-a931-4f13-b693-c0ce1aa57f8f",
@@ -2374,7 +3311,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/27815a1a-a931-4f13-b693-c0ce1aa57f8f/e3af3ca9-e6ac-46f2-bd3e-8aebe7e77640.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2388,7 +3328,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8220d7b8-08e4-49a4-b13b-12b18db49836/50fede2e-f637-4665-8a1a-5769e58ddcff.png",
     "program": "FTC",
     "season": "Power Play",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Intake",
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"PP-IN-B | Claw\""
@@ -2402,7 +3346,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/41d3a3e2-4967-4797-b25c-0f8e6bec633b/2ee43256-79d2-4c2d-a392-0c33491dc09b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -2416,10 +3363,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/104555a3-932b-427b-8016-edd47da19f58/5af329b2-7ea8-4e86-b9fc-30a492daa883.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
-    "needsReview": true,
-    "reviewReason": "no mechanism keyword matched \"DonutClaw [Open Source] | DonutClaw Assembly\", defaulted to Full Robot"
+    "needsReview": false,
+    "reviewReason": null
   },
   {
     "id": "e5a6ea05-067a-42e9-88c6-75a0eb81c659",
@@ -2430,7 +3380,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e5a6ea05-067a-42e9-88c6-75a0eb81c659/fd113424-cf4b-4ced-ace4-0b085e86ad23.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2444,7 +3397,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a5160644-8705-4b7f-94ce-ea9de91cc129/4e2571c3-b0dd-45c0-b0b0-9c48794923df.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2458,7 +3414,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/df304db0-4882-4f71-83d0-fdc58575a1fa/66e65c61-bfa8-4eb6-9dda-25972acddf95.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
     "reviewReason": null
@@ -2472,7 +3431,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3a605d2e-6156-47ad-bc12-19681a32c4b9/7c596d23-e8c4-4564-b212-2973efdbca6d.png",
     "program": "FTC",
     "season": "Into the Deep",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2486,7 +3448,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/345a4af8-56ec-4588-b3a4-489b670290d2/a0a0fa31-93b8-455b-9f0d-b0800cb62d37.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Deposit | Deposit\", defaulted to Full Robot"
@@ -2500,7 +3466,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8cd9ca5f-90d4-4338-87e3-8ec65ade48f7/3f3297d0-0e78-4cd1-b24f-6854ffd5d1f0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Claw / Gripper",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2514,7 +3483,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b59c5c25-5f4a-4a9e-a7bf-7080783fca8e/2dcddb39-9e1d-4bb2-884b-83fbd03c24b9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Dead Axle Wheel",
+    "primaryCategory": "Dead Axle Wheel",
+    "tags": [
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2528,7 +3500,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/182796a8-1025-4db1-95dd-d791f44662b6/0e5f3d68-8bbc-486c-9d96-254bc5f4ef58.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Fusion 360",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Boxtube v3 - AUTODESK FUSION\", defaulted to Full Robot"
@@ -2542,7 +3517,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/668ee1a9-8d7f-448b-9417-6f1569c6912a/a64a97b8-d324-47c0-bf07-33933cdb50b4.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Linear Slides / Extension",
+    "primaryCategory": "Linear Slides / Extension",
+    "tags": [
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2556,7 +3534,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d43365fb-de5f-46f7-8303-6f9736f01120/7ee5f468-72c0-4fd3-98c9-050b3f224f20.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Dead Axle Wheel",
+    "primaryCategory": "Dead Axle Wheel",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2570,7 +3552,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/754363ec-f7f2-4e53-8a3c-1e5be2cf5b1b/e300839f-6ef0-490b-aae6-88e427c2a34c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2584,7 +3569,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/820d738d-3822-4d43-becf-fc886abaa995/74c91ed0-df8e-4919-94d7-0e897c905093.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Dead Axle Wheel",
+    "primaryCategory": "Dead Axle Wheel",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Dead Axle Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2598,7 +3587,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/da469dfc-5c0d-496b-b731-5bc4bf3a7402/1d6f668e-306e-4b6a-a340-afce9f7a1558.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"30030 Simplified Grip Forces (configurable) | Wheel module left\", defaulted to Full Robot"
@@ -2612,10 +3605,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9124fee3-ba50-4eb2-8cbb-223988422c34/b8b96e3c-2860-4df1-b826-ca9812ce57af.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Drone Launcher",
+    "tags": [
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
-    "needsReview": true,
-    "reviewReason": "no mechanism keyword matched \"CFDrone|Tomahawk|17315 | DroneAssemblyV2\", defaulted to Full Robot"
+    "needsReview": false,
+    "reviewReason": null
   },
   {
     "id": "caf9e867-be01-4500-b2c6-226e8e1b165c",
@@ -2626,7 +3622,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/caf9e867-be01-4500-b2c6-226e8e1b165c/4469d45b-1065-465e-9a5d-90b747be48c8.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drone Launcher",
+    "primaryCategory": "Drone Launcher",
+    "tags": [
+      "Drone Launcher"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2640,7 +3639,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/561a7f85-935d-4e9f-a3be-f3b1063d02b6/fa50a86b-a0aa-43bf-acb2-53c1503a3ab9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2654,7 +3656,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/35111dec-c2d5-40ec-80f6-061de975e1db/1baa3651-6165-4029-a8e7-c6b1b32a4c28.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2668,7 +3673,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/227b44a4-acb2-4b92-b777-c0dafca61e78/0da91786-36cd-47bb-b40d-91c5ee9d1644.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Camera Mount",
+    "primaryCategory": "Camera Mount",
+    "tags": [
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2682,7 +3690,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/acda53ca-3b05-417d-a661-426e82d458a2/701bf6f3-2ab8-4400-a3e9-f3b1733b2edf.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2696,7 +3707,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d9c708ba-7aa4-4cfa-b551-f75c8bac413a/4b241ec7-bb93-4622-ab06-6c636485cfdb.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"QR-20-A-0200.STEP | QR-20-A-0200\", defaulted to Full Robot"
@@ -2710,7 +3724,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ba09340a-e0c7-4116-8c86-d663783ff7f3/94ade7a7-2983-47c7-ba20-103ff1fc7dcf.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Number Plate / Misc Hardware",
+    "primaryCategory": "Number Plate / Misc",
+    "tags": [
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2724,7 +3741,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e4984474-8b70-4933-8abe-9344781d6c54/3828cb7c-55f8-47b0-9e8e-4e938a8a331e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Number Plate / Misc Hardware",
+    "primaryCategory": "Number Plate / Misc",
+    "tags": [
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2738,7 +3758,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/34232e05-cf92-422b-94bb-91665d050d2a/c3fc139c-21d4-40e3-957d-43686cc46e21.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Number Plate / Misc Hardware",
+    "primaryCategory": "Number Plate / Misc",
+    "tags": [
+      "Number Plate / Misc"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": false,
     "reviewReason": null
@@ -2752,7 +3775,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/569f4dc3-c1ad-48f4-a2c4-1073ddc2355f/b429a093-f368-47b4-b238-d24290f80279.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2766,7 +3792,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a27ba5f0-5bde-4489-8d44-98daa83157a4/393ab761-c364-47b7-aa89-b23177ff6670.png",
     "program": "FTC",
     "season": "Power Play",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"fun 3dp pp dt | Full Base Assembly\""
@@ -2780,7 +3809,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0cfaab8f-5307-445e-8b05-df6b63045d88/6b531171-bd34-441e-b14a-60e130d19c54.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2794,7 +3826,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4023e72a-f718-411c-b6c5-ad70f35ee224/cd706424-a7f4-4b66-bc1e-3dbf765812b4.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2808,7 +3843,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/95eac77b-707c-48c8-b7b4-88322a1b16f2/8c369ce8-6dca-458d-9234-4d4627f39d33.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2822,7 +3860,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fe482da5-9312-46f7-b75b-350c4040f438/1e7d9be7-585f-49ca-bdb6-7e17dc9d244d.png",
     "program": "FTC",
     "season": "Freight Frenzy",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "season inferred from ambiguous abbreviation in \"FF-DT-7LMEC | FF-DT-7LMEC Full Right\""
@@ -2836,7 +3877,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9f35fed6-ff42-42fe-9bbb-bf2a64c545bb/c062811e-b438-4479-93a5-4eb712d98b7d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2850,7 +3894,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1f03e1b7-7559-403f-94e4-c0fc28b17c98/8e825bf7-fd77-4397-9daf-0c5925f71594.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2864,7 +3911,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4859c4f3-0e74-45be-bfe7-034e21923f8e/699e0d92-5ab1-4155-97c5-5844b160b0a8.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2878,7 +3928,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/881e8cc9-a04f-42e4-8783-11f817d9bf32/8e5f67dd-2afe-4986-afa4-2606aa65eb5d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Vector Wheel",
+    "primaryCategory": "Vector Wheel",
+    "tags": [
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2892,7 +3945,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a3ef8f3f-cbb7-4448-a42c-e64d5895bd76/98b8aa11-91f1-4962-bacd-bf34c6cbeb0d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Vector Wheel",
+    "primaryCategory": "Vector Wheel",
+    "tags": [
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2906,7 +3962,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f1babca3-e1e3-4bf1-a275-76675bee8c6e/149c6b19-6474-4b54-9493-5e1617eadc90.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Vector Wheel",
+    "primaryCategory": "Vector Wheel",
+    "tags": [
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2920,7 +3979,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/585cb0f3-d966-48d6-aaa9-270e81e9f83a/aecaf02f-51fc-46f3-824b-d496bb413982.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Vector Wheel",
+    "primaryCategory": "Vector Wheel",
+    "tags": [
+      "Vector Wheel"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2934,7 +3996,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5994c398-db95-4800-9ee4-00cc8bba2489/3c6e403d-3af0-43fe-93d2-51d281b671ed.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2948,7 +4013,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/afad1768-c47e-43d4-a9d3-fda67bd3fb11/bfcd84c6-e4d8-496a-af84-e193cf76993d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -2962,7 +4030,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7ff46919-45de-405f-b4be-52d2c693ffc2/931e4de9-2a98-444f-8af5-d4f0d7300aea.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"DeSoto Technix Driver Station V2 open source | Assembly 2\", defaulted to Full Robot"
@@ -2976,7 +4047,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b12e3772-6d89-4b2a-9ffd-20069cfff56d/88885820-b225-4211-bf4d-24e4344a00a2.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"DeSoto Technix mini field Decode - open source | good mini field v2\", defaulted to Full Robot"
@@ -2990,7 +4064,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/cd355843-643c-4c70-b5c0-c02b8b916070/369cffe1-4cfa-4847-92f6-60173088e25a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"DeSoto Technix CAD Library - open source | Assembly 2\", defaulted to Full Robot"
@@ -3004,7 +4081,16 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b80e60f6-5783-4c80-bb5a-39c694ce1807/379309ea-5b6a-4ce6-bfcf-04a3013c71c5.png",
     "program": "FTC",
     "season": "Decode",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -3018,7 +4104,11 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5d016ca3-15b8-45d2-8c54-38e0e807bd59/5ed10325-bd84-4ee2-9b7c-57b3bbd05c3a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Differential / PTO",
+    "primaryCategory": "Differential / PTO",
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Differential / PTO"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -3032,7 +4122,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/81b9c587-c899-4b9f-8c9f-a61cc89f8639/80aca76a-5919-4e90-8ff2-ecde7fb6b2b0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Configurable Parts | Gears\", defaulted to Full Robot"
@@ -3046,7 +4139,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8360d74c-1669-4f0f-8413-f8632c4b6c15/5a424f55-b16a-409c-a6f7-2c95b8c1d355.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Configurable Standoff W/ Screws | 6mm Standoff W/ Screws\", defaulted to Full Robot"
@@ -3060,7 +4156,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/43bccf6e-5095-4012-93dd-da5310641fc7/f7b3753e-52bb-4dff-ae2a-adea7b37e37f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Configurable Parts | Linear Rail Assembly\", defaulted to Full Robot"
@@ -3074,7 +4173,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/afd12a2a-7dc2-4521-915a-05542459d7ea/f1a4fd4f-81eb-42a1-aa6d-e429c6543626.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Simplified Parts for FTC | Simplified goBILDA Motor\", defaulted to Full Robot"
@@ -3088,7 +4190,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/c10c34a8-a353-4b07-a268-a5c51ea0a54e/64a70b26-3514-47f7-bfb4-12b3b83055e2.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Config Bevel Gears | Part Studio 1\", defaulted to Full Robot"
@@ -3102,7 +4207,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/2394801e-cf9b-4e2b-b578-960c57ebd303/5c6a5d5d-b183-44db-8714-a4a53c3cef05.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Opsign V2 | ParallePlate\", defaulted to Full Robot"
@@ -3116,7 +4224,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e49cabf8-3aaf-4de1-b238-0b1f50db3ae6/86954183-1e2b-4119-ae4a-256f2b6bd89d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"PulleyGen with Mods (we didn't make the original) | HTD Pulley\", defaulted to Full Robot"
@@ -3130,7 +4241,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b52d47bf-7dd3-414f-a2dd-2a35bfb9d36e/bbb26c73-9588-4c8b-b759-db316700a520.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Belt Gen V2 | Part Studio 1\", defaulted to Full Robot"
@@ -3144,7 +4258,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/989f69ad-9155-4fd2-a708-d8c612ab3de9/de4d7bc1-df95-4857-85cb-1458de33b89d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"openflap/openmold | Linktree\", defaulted to Full Robot"
@@ -3158,7 +4275,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/cfe1a41b-2db0-4bc7-9138-f9b6e81d8534/e7b858f7-21e1-4dc6-84d0-37b74699ce1b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"OpenFlap | TPU OpenFlap\", defaulted to Full Robot"
@@ -3172,7 +4292,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0f03df22-892a-4949-ba73-fdea040d4725/5e037710-bae6-4fb7-a0ff-d1c7d128e1a3.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"opTake | Blue Version\", defaulted to Full Robot"
@@ -3186,7 +4309,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/446f613d-ec87-41f6-802d-01448ed7a0c1/4b78e992-2cef-4fdb-8775-02dc450b8f04.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"OpWheel | OpWheel\", defaulted to Full Robot"
@@ -3200,7 +4326,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f248a927-7af2-4244-8424-663e30b748cc/e680fd44-1ede-4804-8f69-58280856fd93.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"3D Printable Belt Gen | Part Studio 1\", defaulted to Full Robot"
@@ -3214,7 +4343,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d0536df6-0dcb-4998-862e-af952bd50d9b/d91cce34-5b1e-4efb-9275-60f052af882e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"OpSpool v2 (FTC 23511) | Spool\", defaulted to Full Robot"
@@ -3228,7 +4360,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/e146426f-7162-4a5e-933a-60733ba6617a/8847def6-169c-4131-a517-07e1e775f2a9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"opInsert | V2\", defaulted to Full Robot"
@@ -3242,7 +4377,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5c9f43c4-7f6d-4057-9322-664112031afb/5b8bae1b-f3ff-4743-8642-d8d72ae5c236.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Linear Slides / Extension",
+    "primaryCategory": "Linear Slides / Extension",
+    "tags": [
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -3256,7 +4394,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/bde4173b-6ad7-4bca-812e-76713e02111f/f93ccf63-8fdb-47c5-ac74-af35d42f48d7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"opInsert | Examples\", defaulted to Full Robot"
@@ -3270,7 +4411,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/ce65b13b-d355-4f5a-8035-ae824e22c191/34cd1096-6814-4147-8f4f-ff14539fa1b5.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Linear Slides / Extension",
+    "primaryCategory": "Linear Slides / Extension",
+    "tags": [
+      "Linear Slides / Extension"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -3284,7 +4428,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7e0ad8a5-3f27-4730-9edf-2e90ad5ae3cc/b05be97e-f3f6-4c43-8a34-cdcd16305018.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Configurable Pivoting Boxtube | Configurable Pivoting Boxtube\", defaulted to Full Robot"
@@ -3298,7 +4445,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/2530ae32-b61f-42ac-8cea-de2f2bc6d113/22c4bb21-952f-40ef-b3fd-e43d55fa17a4.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Ball Bearings | 6\" ID x 6.5\" OD x .25\" WD (X-Contact Bearing)\", defaulted to Full Robot"
@@ -3312,7 +4462,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f777db15-5e56-4af1-b358-775fe301ae2b/7909a2a4-7d44-49c9-ad5d-2dec52efa8f6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Low Profile Encoder cap | Part Studio 1\", defaulted to Full Robot"
@@ -3326,7 +4479,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/5dd0176a-bd23-4eaf-9a4e-656d392c4fa1/7ad7263b-daf4-44c7-a048-e5e24e72145b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Better Motor Encoder Cap | Assembly 1\", defaulted to Full Robot"
@@ -3340,7 +4496,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3c8c335a-bde5-4065-972d-dc2a5ca6852b/794c7174-b6c1-4ce4-b2d5-e8a7395198f1.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"reinforced 1:1 adaptor | 5105-0208-0019\", defaulted to Full Robot"
@@ -3354,7 +4513,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7056aeff-6db0-423b-bf06-445b6261d65f/c76be720-4534-4844-a26c-565a35cbe44d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"OP Clip | OpClip\", defaulted to Full Robot"
@@ -3368,7 +4530,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/2362a400-2703-4994-9034-23b965debadf/881ef93c-11ae-4eeb-8268-554b6f74bc5a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Partial Spur Gear | Gear assembly\", defaulted to Full Robot"
@@ -3382,7 +4547,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b3a43ef3-1f69-4d41-8617-d3c44457f16b/973d885f-6cde-475f-b7a6-99913b982a11.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": false,
     "reviewReason": null
@@ -3396,7 +4564,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d77272cf-78be-452c-bd04-36fddcd5acfb/dc02e1a9-b0ad-4be9-9832-3e1d9f1ede01.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"BeeBase Email Form\", defaulted to Full Robot"
@@ -3410,7 +4581,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/83b5f1a4-1f09-4887-89b5-52446462fe10/765c1fae-8196-4b2a-bd23-0b5738be9069.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Application for Simba's Configurable Library\", defaulted to Full Robot"
@@ -3424,7 +4598,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f30f72da-53b6-42b2-816d-f61e415777f6/33c5be77-c6c4-419f-b9a5-d8d31883c7cd.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"GearLabFS-Public | Ex5: Inherit from Parent (Bevel Gears)\", defaulted to Full Robot"
@@ -3438,7 +4615,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/38e8ca20-4d4f-45e9-bf7f-b75230250c5d/cea499d9-79b9-4116-9a1e-5e994b3b1953.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"FTCdesign Featurescripts | ftcdesign.png\", defaulted to Full Robot"
@@ -3452,7 +4632,13 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b1fdb758-6de1-4bfc-9b4a-965f3cc8191c/5406ca73-aa6a-4b74-bd91-d54edba0cf1a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"14468 [undefined] FTC parts library | 14468 logo.png\", defaulted to Full Robot"
@@ -3466,7 +4652,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4216ee54-a984-4bff-a358-030d24610642/412670dd-3fbf-4925-bbc1-7ca9e12548e0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Mech Nest\", defaulted to Full Robot"
@@ -3480,7 +4669,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0edbbe5c-8acb-4dec-9af3-699c62bdcad9/4045e48f-f82b-4e01-a5bb-ac1740371934.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": false,
     "reviewReason": null
@@ -3494,7 +4686,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/466c0f42-cbbb-4b48-b04a-8d638c6dd074/5d2ce350-9c33-4963-b572-83d363074291.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Intake",
+    "primaryCategory": "Intake",
+    "tags": [
+      "Intake"
+    ],
     "cadPlatform": "Other",
     "needsReview": false,
     "reviewReason": null
@@ -3508,7 +4703,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/3aa38701-600d-4923-903d-2904fe0d2450/1179cae6-8b24-4ae5-959d-008fa2f8e7fd.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"RoboFTC\", defaulted to Full Robot"
@@ -3522,7 +4720,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/106cb7c5-3b6b-432b-88c3-3dbf919d5f46/f0e1c0db-87d0-4404-bae8-046d0acf666a.png",
     "program": "FRC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"FRC CAD Collection - Spectrum3847 - Google Sheets\", defaulted to Full Robot"
@@ -3536,7 +4737,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/08979caa-4555-430e-942d-166935314d42/7e3c45f8-ec33-4246-a111-3340d24dc8b5.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Google Drive",
     "needsReview": false,
     "reviewReason": null
@@ -3550,7 +4754,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/82625d58-2b9a-4815-be3c-aa9e683e3cfe/24566278-9f75-4a13-9b23-9e73b1ebef89.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Onshape",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"App Store - Onshape\", defaulted to Full Robot"
@@ -3564,7 +4771,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/dd904460-05bc-437b-aefd-4f40843a1781/db0c44a4-7bd7-49c7-bee1-e1b60b29f35c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"The Loony Squad - LoonyLib\", defaulted to Full Robot"
@@ -3578,7 +4788,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f66457c6-2e30-4523-b622-3c8398800460/d727712e-d910-4cb7-8b3d-e34055879f12.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "mechanismCategory": "Full Robot",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot"
+    ],
     "cadPlatform": "Other",
     "needsReview": true,
     "reviewReason": "no mechanism keyword matched \"Open Source 3D Printable Items – Ferra Components\", defaulted to Full Robot"

@@ -36,12 +36,12 @@ export default function CadCatalog({
     const query = search.trim().toLowerCase();
     return entries.filter((entry) => {
       if (query) {
-        const haystack = `${entry.title} ${entry.assemblyName}`.toLowerCase();
+        const haystack = `${entry.title} ${entry.assemblyName} ${entry.tags.join(" ")}`.toLowerCase();
         if (!haystack.includes(query)) return false;
       }
       if (selectedPrograms.size > 0 && !selectedPrograms.has(entry.program)) return false;
       if (selectedSeason !== "all" && entry.season !== selectedSeason) return false;
-      if (selectedMechanisms.size > 0 && !selectedMechanisms.has(entry.mechanismCategory)) return false;
+      if (selectedMechanisms.size > 0 && !entry.tags.some((t) => selectedMechanisms.has(t))) return false;
       if (selectedPlatforms.size > 0 && !selectedPlatforms.has(entry.cadPlatform)) return false;
       return true;
     });

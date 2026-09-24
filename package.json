@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "node scraper/scrape.mjs"
+    "scrape": "node scraper/scrape.mjs",
+    "tag": "node scraper/tag-mechanisms.mjs",
+    "build-data": "node scraper/build-dataset.mjs"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",

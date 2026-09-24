@@ -141,13 +141,18 @@ async function tagEntry(entry) {
 
   const elements = await getElementNames(ref);
   const assembly = await getAssemblyNames(ref);
-  const names = [...(elements.names ?? []), ...(assembly.names ?? [])];
+  // The assembly tree describes exactly what is in the pinned assembly, so it
+  // wins when readable. Document-wide element names also cover unused/old
+  // part studios and other tabs, so they are only the fallback.
+  const treeOk = assembly.status === "ok";
+  const names = treeOk ? assembly.names : (elements.names ?? []);
   const { tags, evidence } = tagsFromNames(names);
 
   // Only fully "unreadable" if the element list (the public source) failed.
   return {
     status: elements.status === "ok" ? "ok" : elements.status,
     assemblyTree: assembly.status,
+    source: treeOk ? "assembly-tree" : "document-elements",
     elementCount: elements.names?.length ?? 0,
     partNameCount: names.length,
     tags: orderTags(tags),

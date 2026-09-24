@@ -62,7 +62,7 @@ export default function FilterPanel({
           type="search"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Title or assembly name…"
+          placeholder="Title, assembly, or mechanism…"
           className="mt-2 w-full rounded-sm border border-border-strong bg-surface px-3 py-2 text-sm text-text placeholder:text-text-muted focus:border-accent focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         />
       </div>
@@ -94,7 +94,7 @@ export default function FilterPanel({
       </div>
 
       <ChipGroup
-        label="Mechanism category"
+        label="Mechanism"
         options={mechanismOptions}
         selected={selectedMechanisms}
         onToggle={onToggleMechanism}

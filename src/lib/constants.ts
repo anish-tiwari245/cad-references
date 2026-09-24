@@ -41,21 +41,21 @@ export function formatSeasonLabel(season: string): string {
   return years ? `${season} ${years}` : season;
 }
 
-export const MECHANISM_CATEGORIES: string[] = [
+export const MECHANISM_TAGS: string[] = [
   "Full Robot",
   "Drivetrain (Mecanum/Tank)",
   "Swerve Drive",
   "Intake",
   "Claw / Gripper",
   "Linear Slides / Extension",
+  "Turret",
+  "Shooter",
   "Differential / PTO",
   "Dead Axle Wheel",
   "Vector Wheel",
   "Camera Mount",
   "Drone Launcher",
-  "Turret / Shooter",
-  "Number Plate / Misc Hardware",
-  "Other",
+  "Number Plate / Misc",
 ];
 
 export const CAD_PLATFORMS: string[] = ["Onshape", "Fusion 360", "GrabCAD", "Google Drive", "Other"];

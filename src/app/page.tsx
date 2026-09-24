@@ -1,11 +1,11 @@
 import CadCatalog from "@/components/CadCatalog";
 import { getCadEntries, getSeasonOptions, getMechanismOptions, getPlatformOptions, getProgramOptions } from "@/lib/data";
-import { MECHANISM_CATEGORIES, CAD_PLATFORMS, PROGRAMS } from "@/lib/constants";
+import { MECHANISM_TAGS, CAD_PLATFORMS, PROGRAMS } from "@/lib/constants";
 
 export default function Home() {
   const entries = getCadEntries();
   const seasonOptions = getSeasonOptions(entries);
-  const mechanismOptions = getMechanismOptions(entries, MECHANISM_CATEGORIES);
+  const mechanismOptions = getMechanismOptions(entries, MECHANISM_TAGS);
   const platformOptions = getPlatformOptions(entries, CAD_PLATFORMS);
   const programOptions = getProgramOptions(entries, PROGRAMS);
 

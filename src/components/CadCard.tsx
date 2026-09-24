@@ -22,7 +22,13 @@ function Badge({
   );
 }
 
+const MAX_SECONDARY_TAGS = 3;
+
 export default function CadCard({ entry }: { entry: CadEntry }) {
+  const secondaryTags = entry.tags.filter((t) => t !== entry.primaryCategory);
+  const visibleTags = secondaryTags.slice(0, MAX_SECONDARY_TAGS);
+  const hiddenTags = secondaryTags.slice(MAX_SECONDARY_TAGS);
+
   return (
     <article className="flex flex-col overflow-hidden rounded-md border border-border bg-surface transition-shadow hover:shadow-[0_2px_12px_rgba(32,29,26,0.08)]">
       <div className="relative aspect-[4/3] w-full border-b border-border bg-bg">
@@ -51,8 +57,20 @@ export default function CadCard({ entry }: { entry: CadEntry }) {
         <div className="flex flex-wrap gap-1.5">
           <Badge tone={entry.program === "FRC" ? "accent" : "neutral"}>{entry.program}</Badge>
           <Badge>{formatSeasonLabel(entry.season)}</Badge>
-          <Badge>{entry.mechanismCategory}</Badge>
+          <Badge>{entry.primaryCategory}</Badge>
         </div>
+
+        {secondaryTags.length > 0 && (
+          <p className="-mt-1 text-[11px] leading-snug text-text-muted">
+            {visibleTags.join(" · ")}
+            {hiddenTags.length > 0 && (
+              <span title={hiddenTags.join(", ")}>
+                {" · "}
+                <span className="underline decoration-dotted underline-offset-2">+{hiddenTags.length} more</span>
+              </span>
+            )}
+          </p>
+        )}
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-1">
           <span className="font-mono text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
