@@ -96,7 +96,7 @@ export default function CadCatalog({
             </span>
           )}
         </button>
-        <p className="text-sm text-text-muted">
+        <p className="font-mono text-sm text-text-muted">
           {filtered.length} of {entries.length} CAD files
         </p>
       </div>
@@ -110,7 +110,7 @@ export default function CadCatalog({
 
         <div>
           <div className="mb-4 hidden items-center justify-between lg:flex">
-            <p className="text-sm text-text-muted">
+            <p className="font-mono text-sm text-text-muted">
               {filtered.length} of {entries.length} CAD files
             </p>
           </div>

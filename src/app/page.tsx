@@ -12,14 +12,11 @@ export default function Home() {
   return (
     <main>
       <header className="border-b border-border bg-surface">
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-          <h1 className="text-2xl font-semibold tracking-tight text-text sm:text-3xl">
-            FTC / FRC CAD Reference Library
-          </h1>
-          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-text-muted">
-            A community reference library of FIRST Robotics CAD files — full robots, drivetrains, swerve
-            modules, intakes, claws, and more — linked back to their original Onshape, Fusion 360, GrabCAD,
-            and Google Drive sources.
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 sm:px-6 md:flex-row md:items-end md:justify-between lg:px-8">
+          <h1 className="text-3xl font-semibold tracking-tight text-text">FTC CAD References</h1>
+          <p className="max-w-md text-sm leading-relaxed text-text-muted md:text-right">
+            Robot CAD shared by FIRST teams. Each entry links to the original file on Onshape, Fusion 360,
+            GrabCAD, or Google Drive.
           </p>
         </div>
       </header>

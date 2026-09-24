@@ -9,9 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FTC/FRC CAD Reference Library",
-  description:
-    "A community reference library of FIRST Robotics (FTC/FRC) CAD files, sourced from a shared team pinboard.",
+  title: "FTC CAD References",
+  description: "Robot CAD files shared by FIRST Tech Challenge and FIRST Robotics Competition teams.",
 };
 
 export default function RootLayout({

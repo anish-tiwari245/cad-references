@@ -1,3 +1,5 @@
+import { MECHANISM_VOCAB, FULL_ROBOT, tagsFromText, orderTags } from "./tags.mjs";
+
 // Best-effort classification of a pin's title/assembly text into the fields
 // the website filters on. Ambiguous calls are flagged via needsReview rather
 // than guessed silently, per the task brief.
@@ -98,32 +100,31 @@ export function classifyProgram(text) {
   return "FTC";
 }
 
-const MECHANISM_RULES = [
-  ["Swerve Drive", /swerv|swerb/i],
-  ["Differential / PTO", /\bdifferential\b|\bdiffy\b|\bdiffies\b|\bpto\b/i],
-  ["Vector Wheel", /vector wheel/i],
-  ["Dead Axle Wheel", /dead.?axle|odometry/i],
-  ["Claw / Gripper", /\bclaw\b|gripper/i],
-  ["Intake", /intake/i],
-  ["Linear Slides / Extension", /\bslides?\b|extendo|linear extension/i],
-  ["Camera Mount", /camera/i],
-  ["Drone Launcher", /\bdrone\b/i],
-  ["Turret / Shooter", /turret|shooter|indexer/i],
-  ["Number Plate / Misc Hardware", /number plate|sign mounts?|team plate/i],
-  [
-    "Drivetrain (Mecanum/Tank)",
-    /drivetrain|drive.?train|chassis|mecanum|octocanum|\bdt\b|drivebase|\blmec\b|\b6wd\b|\b8wd\b/i,
-  ],
-];
-
 const FULL_ROBOT_HINT = /\brobot\b|\bbot\b|full assembly|full robot|full bot|master assembly|main assembly|worlds|nationals|states|regionals|top level robot/i;
+const ROBOT_WORD = /\b(robot|bot)\b/i;
 
+// Primary category = first vocabulary match in priority order, else Full Robot.
+// Tags = every vocabulary match in the title, plus Full Robot when the text
+// says "robot"/"bot" (a swerve robot should surface under both filters).
 export function classifyMechanism(text) {
-  for (const [category, re] of MECHANISM_RULES) {
-    if (re.test(text)) return { mechanismCategory: category, needsReview: false };
+  const titleTags = tagsFromText(text);
+  const primaryMatch = MECHANISM_VOCAB.find((v) => titleTags.includes(v.tag));
+  const tags = new Set(titleTags);
+  let primaryCategory;
+  let needsReview = false;
+  let reviewReason;
+  if (primaryMatch) {
+    primaryCategory = primaryMatch.tag;
+    if (ROBOT_WORD.test(text) && primaryCategory !== "Number Plate / Misc") tags.add(FULL_ROBOT);
+  } else {
+    primaryCategory = FULL_ROBOT;
+    tags.add(FULL_ROBOT);
+    if (!FULL_ROBOT_HINT.test(text)) {
+      needsReview = true;
+      reviewReason = `no mechanism keyword matched "${text}", defaulted to Full Robot`;
+    }
   }
-  if (FULL_ROBOT_HINT.test(text)) return { mechanismCategory: "Full Robot", needsReview: false };
-  return { mechanismCategory: "Full Robot", needsReview: true, reviewReason: `no mechanism keyword matched "${text}", defaulted to Full Robot` };
+  return { primaryCategory, tags: orderTags([...tags]), needsReview, reviewReason };
 }
 
 export function classifyCadPlatform(domain, url) {
@@ -155,7 +156,8 @@ export function classifyPin(rawTitleText, domain, url) {
     assemblyName,
     program,
     season: seasonResult.season,
-    mechanismCategory: mechanismResult.mechanismCategory,
+    primaryCategory: mechanismResult.primaryCategory,
+    tags: mechanismResult.tags,
     cadPlatform,
     needsReview,
     reviewReason: reviewReasons.length ? reviewReasons.join("; ") : null,

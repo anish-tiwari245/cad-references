@@ -18,7 +18,7 @@ import { classifyPin } from "./classify.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BOARD_URL = "https://pinboard.opera.com/view/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003";
-const OUTPUT_PATH = path.join(__dirname, "..", "data", "cad-files.json");
+const OUTPUT_PATH = path.join(__dirname, "..", "data", "scraped.json");
 
 async function extractCards(page) {
   return page.evaluate(() => {
@@ -247,7 +247,8 @@ function buildDataset(liveCards) {
       thumbnail: c.thumbnail,
       program: classified.program,
       season: classified.season,
-      mechanismCategory: classified.mechanismCategory,
+      primaryCategory: classified.primaryCategory,
+      tags: classified.tags,
       cadPlatform: classified.cadPlatform,
       needsReview,
       reviewReason: reviewReason || null,

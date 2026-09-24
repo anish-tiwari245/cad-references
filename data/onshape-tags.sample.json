@@ -1,0 +1,531 @@
+{
+  "https://cad.onshape.com/documents/18b37cdc3de0199f4d2dca23/w/3f2da1596472b3174473054e/e/0c5478a4b66ea55078cb5996": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 76,
+    "partNameCount": 76,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Dead Axle Wheel",
+      "Camera Mount"
+    ],
+    "evidence": {
+      "Shooter": [
+        "Shooter",
+        "Flywheel",
+        "Shooter shaft",
+        "Shooter side mount",
+        "Shooter side plate",
+        "Shooter spacers"
+      ],
+      "Camera Mount": [
+        "Camera mount spacer",
+        "t265 mount"
+      ],
+      "Turret": [
+        "Turret motor mount plate",
+        "Turret gear",
+        "Turret top plate",
+        "Turret base plate"
+      ],
+      "Intake": [
+        "Intake",
+        "Intake shafts",
+        "Intake intake plate",
+        "Intake backing",
+        "Intake tube",
+        "Intake pivot plate"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "Drivetrain",
+        "Drivetrain shafts",
+        "BOM : Drivetrain"
+      ],
+      "Dead Axle Wheel": [
+        "deadaxle",
+        "BOM : deadaxle"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:33.099Z"
+  },
+  "https://cad.onshape.com/documents/ecc71c6b26b43f044d4b2589/w/dba69789ab8ec0be6c446689/e/83bd8eba2133596a2717cfac": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 102,
+    "partNameCount": 102,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel"
+    ],
+    "evidence": {
+      "Intake": [
+        "intake"
+      ],
+      "Linear Slides / Extension": [
+        "Lift",
+        "AxLift",
+        "MotorLift",
+        "MotorLift (1)"
+      ],
+      "Dead Axle Wheel": [
+        "Odometry",
+        "OpenOdometry",
+        "OpenOdometry (1)",
+        "OpenOdometry (1) (1)",
+        "OdoRetraction"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "Drivetrain 3_Wheel v7 v10",
+        "Drivetrain 3_Wheel v7 v10 (1)",
+        "Drivetrain 3_Wheel v7 v10 (2)",
+        "Drivetrain 3_Wheel v7 v10 (3)"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:34.698Z"
+  },
+  "https://cad.onshape.com/documents/ce604d35757321522214511f/w/5d51be36907aff463fe6b97b/e/3846f257c66cdb4ca7bd9e1d": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:35.145Z"
+  },
+  "https://cad.onshape.com/documents/c021b03986672773c2100272/w/74f0a8f10b4c93fb8fe556c1/e/b8bffd930c2a2d8248794936": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 53,
+    "partNameCount": 53,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Dead Axle Wheel"
+    ],
+    "evidence": {
+      "Turret": [
+        "Turret",
+        "BOM : Turret",
+        "Turret-Mirrored"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "Drivetrain",
+        "BOM : Drivetrain"
+      ],
+      "Intake": [
+        "Intake",
+        "fabworks redone intake cover",
+        "Intake Render",
+        "BOM : Intake",
+        "intake cover.step"
+      ],
+      "Dead Axle Wheel": [
+        "Odometry Mount",
+        "Odometry Module",
+        "BOM : Odometry Module"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:35.937Z"
+  },
+  "https://cad.onshape.com/documents/739cbc37d8c0f0ad7b95c0eb/w/fc70919e3f63577f145199d1/e/615c0c03deda030e370d37d2": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 219,
+    "partNameCount": 219,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Turret",
+      "Shooter",
+      "Camera Mount"
+    ],
+    "evidence": {
+      "Intake": [
+        "Gate Intake Portrusions",
+        "Intake Motor Mounts",
+        "Back Intake Deadzone Ramp",
+        "Full Drivetrain + Intake(Left Drivetrain Assembly Mirrored)",
+        "Intake Cover",
+        "Custom Intake Shaft"
+      ],
+      "Turret": [
+        "Turret Wiring Guards",
+        "Shooter Assembly 6 Inch Turret",
+        "Official Master Sketch 6 Inch Turret",
+        "Shooter Parts 6 Inch Turret",
+        "BOM : Shooter Assembly 6 Inch Turret"
+      ],
+      "Camera Mount": [
+        "Front Camera Mount"
+      ],
+      "Shooter": [
+        "Shooter Assembly",
+        "Shooter Assembly 6 Inch Turret",
+        "Shooter Assembly Basic",
+        "Shooter Assembly Bottom Shooter Gear",
+        "Official Master Sketch Basic Shooter",
+        "Shooter Parts Bottom Gear Mounting"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "Master Sketch Vertical Drivetrain",
+        "Master Sketch Horizontal Drivetrain",
+        "Master Sketch Horizontal Drivetrain Curved Ramp",
+        "Drivetrain Parts",
+        "Left Drivetrain Assembly",
+        "Full Drivetrain + Intake(Left Drivetrain Assembly Mirrored)"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:36.688Z"
+  },
+  "https://cad.onshape.com/documents/c606396fc576780ed64e2c64/w/20ac0e5442f70a7c37ef59bb/e/a8bf924fa3e70c6ac5f44289": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:37.165Z"
+  },
+  "https://cad.onshape.com/documents/a116695750b054564ac11cbb/w/2025d9645023834db075348e/e/87987a3f29f6075a645ceb7b": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 1,
+    "partNameCount": 1,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:37.724Z"
+  },
+  "https://cad.onshape.com/documents/7b0c5fc17ec3c2db8e56136f/w/24f09cff7077fd2a80e72dd5/e/2404ab8a177d91fea5d8073a": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 17,
+    "partNameCount": 17,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Claw / Gripper",
+      "Dead Axle Wheel"
+    ],
+    "evidence": {
+      "Dead Axle Wheel": [
+        "Optii Odometry v4",
+        "Optii_Odometry_Full_Compression parts",
+        "Optii_Odometry_Full_Compression.step"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "Drivetrain Parts",
+        "Drivetrain"
+      ],
+      "Claw / Gripper": [
+        "Gripper Parts",
+        "Gripper"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:38.312Z"
+  },
+  "https://cad.onshape.com/documents/f6dd45713fc55340bdb74873/w/e9f391990ef2f46074982c1c/e/eecf4140ad487fdc4d6687d9": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 76,
+    "partNameCount": 76,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
+    "evidence": {
+      "Drivetrain (Mecanum/Tank)": [
+        "full drivetrain assem"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:38.873Z"
+  },
+  "https://cad.onshape.com/documents/ebc568d988a3481df5b30665/w/b52c4b20056239beb1b33c8a/e/f4c48ae027e27379d605a705": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 58,
+    "partNameCount": 58,
+    "tags": [
+      "Swerve Drive"
+    ],
+    "evidence": {
+      "Swerve Drive": [
+        "Swerve pod part studio - Servo standoff",
+        "Swerve pod part studio - Servo standoff.step"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:39.704Z"
+  },
+  "https://cad.onshape.com/documents/ae8b51897ac1ee60a604bc5c/w/ee9110f34f839a406dce1fff/e/8c3900d7298ed55d9f7bc529": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 33,
+    "partNameCount": 33,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
+    "evidence": {
+      "Drivetrain (Mecanum/Tank)": [
+        "chassis v3",
+        "basic chassis v2",
+        "basic chassis",
+        "BOM : basic chassis",
+        "BOM : basic chassis v2",
+        "BOM : chassis v3"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:40.260Z"
+  },
+  "https://cad.onshape.com/documents/01672cef7e272016cf0d3207/w/c5a00666bb9e860d01390c8c/e/c6ff3583ac5fb17fe87e7aee": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 1,
+    "partNameCount": 1,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)"
+    ],
+    "evidence": {
+      "Drivetrain (Mecanum/Tank)": [
+        "dt"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:40.822Z"
+  },
+  "https://cad.onshape.com/documents/8b9c71ef444b0ca656b77248/w/6408dc3be6975f56ecf4b94c/e/6fd499479be35b74682dfd6f": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 149,
+    "partNameCount": 149,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Camera Mount"
+    ],
+    "evidence": {
+      "Claw / Gripper": [
+        "claw",
+        "claw *NEW*",
+        "pivotOfClaw",
+        "claw parts",
+        "rotating claw",
+        "IntakeCLAW"
+      ],
+      "Drivetrain (Mecanum/Tank)": [
+        "DT Bellypan",
+        "dt",
+        "dt cf",
+        "DT+OUTTAKEMOTOR *NEW*",
+        "Dt+Outake Motors",
+        "BOM : dt cf"
+      ],
+      "Linear Slides / Extension": [
+        "outtakeSlidePlate",
+        "outtakeSlidePlate CF",
+        "slide support bracket",
+        "extendoplates",
+        "extendoplate",
+        "extendoplate CF"
+      ],
+      "Intake": [
+        "intake",
+        "intakerollers",
+        "FINAL *NEW INTAKE*",
+        "BOM : FINAL *NEW INTAKE*",
+        "BOM : FINAL *NEW INTAKE* Copy 1",
+        "IntakeCLAW"
+      ],
+      "Camera Mount": [
+        "limelight mount"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:41.463Z"
+  },
+  "https://cad.onshape.com/documents/8d1c255df69dc85edf651bdc/w/b12da3bfa2f6c17cac78e26f/e/14c3162339a6ba2e36836028": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 4,
+    "partNameCount": 4,
+    "tags": [
+      "Intake",
+      "Linear Slides / Extension"
+    ],
+    "evidence": {
+      "Linear Slides / Extension": [
+        "Slide+Plate"
+      ],
+      "Intake": [
+        "Intake",
+        "Intake V2",
+        "BOM : Intake"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:42.133Z"
+  },
+  "https://cad.onshape.com/documents/59a2f27a9e21bfcae7ab701d/w/3e4ce6e1276c7aae5b49f09f/e/34d6e0cb4b196ef375ec59d5": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:42.578Z"
+  },
+  "https://cad.onshape.com/documents/bd781072191b4b771db8b158/w/dfab11907603d3a720c139d5/e/c56793fe25e93a1aa37a756d": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 142,
+    "partNameCount": 142,
+    "tags": [
+      "Drivetrain (Mecanum/Tank)",
+      "Intake",
+      "Claw / Gripper",
+      "Linear Slides / Extension",
+      "Dead Axle Wheel",
+      "Drone Launcher"
+    ],
+    "evidence": {
+      "Drivetrain (Mecanum/Tank)": [
+        "Drivetrain",
+        "BOM : Drivetrain"
+      ],
+      "Linear Slides / Extension": [
+        "Horizontal extension endstop limit switch",
+        "Horizontal extension endstop",
+        "Vertical slides spool",
+        "Slide link plate",
+        "Right slide plate",
+        "Left slide plate"
+      ],
+      "Claw / Gripper": [
+        "New Claw",
+        "Claw gripper",
+        "Claw base plate",
+        "Pixel gripper",
+        "Claw mount",
+        "BOM : New Claw"
+      ],
+      "Intake": [
+        "Intake spinner parts",
+        "Intake spinner parts Copy 2",
+        "Intake spinner parts Copy 1",
+        "Intake",
+        "Intake Ramp",
+        "Intake chain"
+      ],
+      "Dead Axle Wheel": [
+        "Axon odo pod",
+        "Axon_Odometry_Bundle_Assembly (1) parts",
+        "Axon_Odometry_Bundle_Assembly.step",
+        "BOM : Axon odo pod"
+      ],
+      "Drone Launcher": [
+        "Drone asssembly Copy 1",
+        "BOM : Drone asssembly Copy 1"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:44.321Z"
+  },
+  "https://cad.onshape.com/documents/8dbb6ec5b64ba5d9556668ce/w/7242710ea56febb23e213c1a/e/cf81280e74517a36b814bdf1": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:44.976Z"
+  },
+  "https://cad.onshape.com/documents/42ca68d7bb31802b3d942bf9/w/8cd35408fd67e88aca8d62dc/e/1a759fb8052c001a523b8db0": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 12,
+    "partNameCount": 12,
+    "tags": [
+      "Vector Wheel"
+    ],
+    "evidence": {
+      "Vector Wheel": [
+        "2025 - Vector Wheel V1",
+        "Vector V4 - CounterSunk M3x18",
+        "FRC 0.5in - HEX - Vector V4 - CounterSunk M3x18 Copy 1"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:45.662Z"
+  },
+  "https://cad.onshape.com/documents/9ae07698df16f89c5db4db15/w/78e10b681a52f79034216366/e/3c5ad0b9e569999c8432d26f": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 38,
+    "partNameCount": 38,
+    "tags": [
+      "Dead Axle Wheel"
+    ],
+    "evidence": {
+      "Dead Axle Wheel": [
+        "Linear Odometer Plates",
+        "Linear Odometry",
+        "Vertical Odometer",
+        "Low Profile Odometer",
+        "Angled Odometer",
+        "Radial Odometer"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:46.307Z"
+  },
+  "https://cad.onshape.com/documents/b482ef54a8453cb0f1ac268d/w/8ef8e6600d3afdd4b9ddeaf6/e/5b9a8b4cf4cc0974f3d11db7": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 4,
+    "partNameCount": 4,
+    "tags": [
+      "Camera Mount"
+    ],
+    "evidence": {
+      "Camera Mount": [
+        "Camera_Mount_v8",
+        "Camera_Cover_v5",
+        "Camera_Cover_v5 (1).step",
+        "Camera_Mount_v8 (1).step"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:46.892Z"
+  },
+  "https://cad.onshape.com/documents/5cc3cde0cf8665eac1ac3225/w/a44e37d90b719924bf2a0bf6/e/704b31dd469edc4669963644": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:47.349Z"
+  },
+  "https://cad.onshape.com/documents/c5259c10461bbe34613c419c/w/7238ba9010a52d09640892ff/e/b9bedd086b04dbbfeaa31881": {
+    "status": "ok",
+    "assemblyTree": "no-key",
+    "elementCount": 6,
+    "partNameCount": 6,
+    "tags": [
+      "Turret"
+    ],
+    "evidence": {
+      "Turret": [
+        "Hooded Turret",
+        "BOM : Hooded Turret"
+      ]
+    },
+    "fetchedAt": "2026-09-24T01:08:47.914Z"
+  },
+  "https://cad.onshape.com/documents/fed59f9d15c41b2a3e7fb23b/w/122c548d594b4e83a68ded57/e/d868b57a63be966194cd4b27": {
+    "status": "http-403",
+    "assemblyTree": "no-key",
+    "elementCount": 0,
+    "partNameCount": 0,
+    "tags": [],
+    "evidence": {},
+    "fetchedAt": "2026-09-24T01:08:48.356Z"
+  }
+}

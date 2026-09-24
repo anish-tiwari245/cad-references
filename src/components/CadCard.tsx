@@ -55,7 +55,7 @@ export default function CadCard({ entry }: { entry: CadEntry }) {
         </div>
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-1">
-          <span className="text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
+          <span className="font-mono text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
           {entry.url ? (
             <a
               href={entry.url}
