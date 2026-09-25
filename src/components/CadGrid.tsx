@@ -5,8 +5,8 @@ export default function CadGrid({ entries }: { entries: CadEntry[] }) {
   if (entries.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center rounded-md border border-dashed border-border-strong bg-surface px-6 py-20 text-center">
-        <p className="text-sm font-medium text-text">No CAD files match these filters.</p>
-        <p className="mt-1 text-sm text-text-muted">Try clearing a filter or broadening your search.</p>
+        <p className="text-sm font-medium text-text">Nothing matches those filters.</p>
+        <p className="mt-1 text-sm text-text-muted">Try removing one or changing your search.</p>
       </div>
     );
   }

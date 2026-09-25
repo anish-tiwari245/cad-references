@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
-// Backup log only. The primary review path is the Formspree email — this
+// Backup log only. The primary review path is the Formspree email, so this
 // file exists in case an email gets missed, per the approval-flow design:
 // nothing here ever gets published automatically.
 const LOG_PATH = path.join(process.cwd(), "data", "pending-submissions.json");

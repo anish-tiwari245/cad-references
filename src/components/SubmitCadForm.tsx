@@ -102,7 +102,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
     // this field. Pretend success without sending anything.
     if (honeypot.trim()) {
       setStatus("success");
-      setStatusMessage("Thanks — this has been sent in for review.");
+      setStatusMessage("Thanks, we got it. We'll take a look soon.");
       resetFields();
       return;
     }
@@ -121,7 +121,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
       "CAD Platform": cadPlatform,
       "Team Name": teamName.trim() || "(not provided)",
       "Contact Email": contactEmail.trim() || "(not provided)",
-      _subject: `New CAD submission${teamName.trim() ? ` — ${teamName.trim()}` : ""}`,
+      _subject: `New CAD submission${teamName.trim() ? `: ${teamName.trim()}` : ""}`,
     };
     if (contactEmail.trim()) emailPayload._replyto = contactEmail.trim();
 
@@ -129,7 +129,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
       // Stub mode: no Formspree endpoint configured yet. Log what would have
       // been sent so the feature is testable before NEXT_PUBLIC_FORMSPREE_ENDPOINT exists.
       console.warn(
-        "[SubmitCadForm] NEXT_PUBLIC_FORMSPREE_ENDPOINT is not set — nothing was sent. Payload:",
+        "[SubmitCadForm] NEXT_PUBLIC_FORMSPREE_ENDPOINT is not set, so nothing was sent. Payload:",
         emailPayload
       );
       setStatus("error");
@@ -154,7 +154,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
           headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify(emailPayload),
         }),
-        // Backup log only — its success or failure doesn't affect the user-facing result.
+        // Backup log only. Whether it works or not doesn't change what the user sees.
         fetch("/api/submit", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -164,7 +164,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
 
       if (formspreeResult.status === "fulfilled" && formspreeResult.value.ok) {
         setStatus("success");
-        setStatusMessage("Thanks — this has been sent in for review.");
+        setStatusMessage("Thanks, we got it. We'll take a look soon.");
         resetFields();
       } else {
         throw new Error("Formspree submission failed");
@@ -172,7 +172,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
     } catch (err) {
       console.error("[SubmitCadForm] submission failed:", err);
       setStatus("error");
-      setStatusMessage("Something went wrong sending this — please try again in a moment.");
+      setStatusMessage("Something went wrong sending that. Give it another try in a minute.");
     }
   }
 
@@ -208,8 +208,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
   return (
     <form onSubmit={handleSubmit} noValidate className="relative flex flex-col gap-5">
       <p className="text-sm leading-relaxed text-text-muted">
-        Share a link to your team&apos;s CAD and it&apos;ll be reviewed for the library. This sends an email for
-        review — it isn&apos;t added automatically.
+        Paste a link to your team&apos;s CAD and we&apos;ll take a look. Nothing goes in the library until it&apos;s approved.
       </p>
 
       {/* Honeypot: clipped to zero size (not display:none), so it still
