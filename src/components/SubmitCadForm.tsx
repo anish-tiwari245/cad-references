@@ -4,7 +4,8 @@ import { useState, type FormEvent } from "react";
 import ChipGroup from "./ChipGroup";
 import { SEASON_ORDER, formatSeasonLabel, getFrcSeasonYears, MECHANISM_TAGS, CAD_PLATFORMS } from "@/lib/constants";
 
-const FTC_SEASON_OPTIONS = [...SEASON_ORDER].reverse();
+// Submissions only go back as far as Skystone (2019-2020), newest first.
+const FTC_SEASON_OPTIONS = SEASON_ORDER.slice(SEASON_ORDER.indexOf("Skystone")).reverse();
 const FRC_SEASON_OPTIONS = getFrcSeasonYears();
 
 const FIELD_LABEL = "text-xs font-semibold uppercase tracking-wide text-text-muted";
@@ -273,11 +274,11 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
       </fieldset>
 
       <div>
-        <label htmlFor="season" className={FIELD_LABEL}>
+        <label htmlFor="submit-season" className={FIELD_LABEL}>
           Season *
         </label>
         <select
-          id="season"
+          id="submit-season"
           value={season}
           onChange={(e) => {
             setSeason(e.target.value);
@@ -345,7 +346,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
           <input
             id="teamName"
             type="text"
-            placeholder="e.g. 11329 I.C.E. Robotics"
+            placeholder="e.g. 31071 Stratos"
             value={teamName}
             onChange={(e) => setTeamName(e.target.value)}
             className={`${INPUT} ${fieldBorder(false)}`}

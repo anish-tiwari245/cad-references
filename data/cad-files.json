@@ -14,9 +14,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Turret",
-      "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -37,7 +35,6 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Turret",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -58,8 +55,7 @@
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -115,9 +111,7 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -136,8 +130,7 @@
     "tags": [
       "Drivetrain (Mecanum/Tank)",
       "Linear Slides / Extension",
-      "Turret",
-      "Dead Axle Wheel"
+      "Turret"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -160,8 +153,6 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -183,8 +174,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -224,8 +214,7 @@
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -301,9 +290,7 @@
     "tags": [
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -376,9 +363,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -397,9 +382,7 @@
     "tags": [
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -419,8 +402,7 @@
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -439,8 +421,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Claw / Gripper",
-      "Dead Axle Wheel"
+      "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -476,8 +457,7 @@
     "tags": [
       "Drivetrain (Mecanum/Tank)",
       "Swerve Drive",
-      "Claw / Gripper",
-      "Dead Axle Wheel"
+      "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -497,9 +477,7 @@
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -519,8 +497,7 @@
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
       "Intake",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -558,8 +535,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -580,8 +556,7 @@
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -599,8 +574,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Claw / Gripper",
-      "Camera Mount"
+      "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -641,8 +615,7 @@
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -663,8 +636,7 @@
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -686,8 +658,7 @@
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Turret",
-      "Differential / PTO",
-      "Camera Mount"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -709,8 +680,6 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -751,7 +720,6 @@
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Turret",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -812,8 +780,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -856,9 +823,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -901,8 +866,6 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Drone Launcher",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -994,8 +957,7 @@
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1053,8 +1015,7 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Turret",
-      "Dead Axle Wheel"
+      "Turret"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1076,7 +1037,6 @@
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Differential / PTO",
-      "Dead Axle Wheel",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -1115,10 +1075,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount",
-      "Drone Launcher"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1137,8 +1094,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Intake",
-      "Dead Axle Wheel"
+      "Intake"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -1161,9 +1117,7 @@
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Turret",
-      "Differential / PTO",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1235,10 +1189,7 @@
     "season": "Centerstage",
     "primaryCategory": "Full Robot",
     "tags": [
-      "Full Robot",
-      "Dead Axle Wheel",
-      "Camera Mount",
-      "Drone Launcher"
+      "Full Robot"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -1309,8 +1260,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1350,8 +1300,7 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Differential / PTO",
-      "Camera Mount"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1372,9 +1321,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Swerve Drive",
       "Turret",
-      "Differential / PTO",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1430,8 +1377,6 @@
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -1473,8 +1418,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Claw / Gripper",
-      "Camera Mount"
+      "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -1495,9 +1439,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1535,8 +1477,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Claw / Gripper",
       "Linear Slides / Extension",
-      "Differential / PTO",
-      "Dead Axle Wheel"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1575,9 +1516,7 @@
       "Intake",
       "Linear Slides / Extension",
       "Turret",
-      "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1655,9 +1594,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Turret",
-      "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -1675,9 +1612,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Drivetrain (Mecanum/Tank)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1698,9 +1633,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Turret",
-      "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1739,8 +1672,7 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Vector Wheel",
-      "Camera Mount"
+      "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1782,9 +1714,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Turret",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Turret"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1807,7 +1737,6 @@
       "Linear Slides / Extension",
       "Turret",
       "Shooter",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -1826,9 +1755,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Drivetrain (Mecanum/Tank)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1847,8 +1774,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Turret",
-      "Camera Mount"
+      "Turret"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1869,7 +1795,6 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -1934,7 +1859,6 @@
       "Linear Slides / Extension",
       "Turret",
       "Shooter",
-      "Dead Axle Wheel",
       "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
@@ -1957,8 +1881,6 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -2077,9 +1999,7 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Dead Axle Wheel",
-      "Vector Wheel",
-      "Camera Mount"
+      "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2101,8 +2021,6 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -2219,8 +2137,6 @@
       "Drivetrain (Mecanum/Tank)",
       "Intake",
       "Shooter",
-      "Dead Axle Wheel",
-      "Camera Mount",
       "Number Plate / Misc"
     ],
     "cadPlatform": "Onshape",
@@ -2260,9 +2176,7 @@
       "Intake",
       "Turret",
       "Shooter",
-      "Dead Axle Wheel",
-      "Vector Wheel",
-      "Camera Mount"
+      "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -2285,8 +2199,7 @@
       "Turret",
       "Shooter",
       "Differential / PTO",
-      "Vector Wheel",
-      "Camera Mount"
+      "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2338,8 +2251,7 @@
     "primaryCategory": "Swerve Drive",
     "tags": [
       "Drivetrain (Mecanum/Tank)",
-      "Swerve Drive",
-      "Dead Axle Wheel"
+      "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2447,9 +2359,7 @@
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -2467,8 +2377,7 @@
     "primaryCategory": "Swerve Drive",
     "tags": [
       "Drivetrain (Mecanum/Tank)",
-      "Swerve Drive",
-      "Dead Axle Wheel"
+      "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2502,9 +2411,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Drivetrain (Mecanum/Tank)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Drivetrain (Mecanum/Tank)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2574,8 +2481,7 @@
     "tags": [
       "Full Robot",
       "Drivetrain (Mecanum/Tank)",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2610,8 +2516,7 @@
     "primaryCategory": "Drivetrain (Mecanum/Tank)",
     "tags": [
       "Drivetrain (Mecanum/Tank)",
-      "Turret",
-      "Dead Axle Wheel"
+      "Turret"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2754,8 +2659,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Differential / PTO",
     "tags": [
-      "Differential / PTO",
-      "Dead Axle Wheel"
+      "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3050,8 +2954,7 @@
       "Drivetrain (Mecanum/Tank)",
       "Swerve Drive",
       "Intake",
-      "Linear Slides / Extension",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3173,8 +3076,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Intake",
     "tags": [
-      "Intake",
-      "Dead Axle Wheel"
+      "Intake"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3209,8 +3111,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Intake",
     "tags": [
-      "Intake",
-      "Dead Axle Wheel"
+      "Intake"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3295,8 +3196,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Claw / Gripper",
     "tags": [
-      "Claw / Gripper",
-      "Camera Mount"
+      "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3483,9 +3383,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/b59c5c25-5f4a-4a9e-a7bf-7080783fca8e/2dcddb39-9e1d-4bb2-884b-83fbd03c24b9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Dead Axle Wheel",
+    "primaryCategory": "Other",
     "tags": [
-      "Dead Axle Wheel"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3534,10 +3434,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d43365fb-de5f-46f7-8303-6f9736f01120/7ee5f468-72c0-4fd3-98c9-050b3f224f20.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Dead Axle Wheel",
+    "primaryCategory": "Other",
     "tags": [
       "Drivetrain (Mecanum/Tank)",
-      "Dead Axle Wheel"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3569,10 +3469,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/820d738d-3822-4d43-becf-fc886abaa995/74c91ed0-df8e-4919-94d7-0e897c905093.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Dead Axle Wheel",
+    "primaryCategory": "Other",
     "tags": [
       "Drivetrain (Mecanum/Tank)",
-      "Dead Axle Wheel"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3605,9 +3505,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9124fee3-ba50-4eb2-8cbb-223988422c34/b8b96e3c-2860-4df1-b826-ca9812ce57af.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drone Launcher",
+    "primaryCategory": "Other",
     "tags": [
-      "Drone Launcher"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3622,9 +3522,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/caf9e867-be01-4500-b2c6-226e8e1b165c/4469d45b-1065-465e-9a5d-90b747be48c8.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drone Launcher",
+    "primaryCategory": "Other",
     "tags": [
-      "Drone Launcher"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3673,9 +3573,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/227b44a4-acb2-4b92-b777-c0dafca61e78/0da91786-36cd-47bb-b40d-91c5ee9d1644.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Camera Mount",
+    "primaryCategory": "Other",
     "tags": [
-      "Camera Mount"
+      "Other"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -4088,8 +3988,7 @@
       "Intake",
       "Linear Slides / Extension",
       "Turret",
-      "Shooter",
-      "Camera Mount"
+      "Shooter"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -4635,9 +4534,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Linear Slides / Extension",
-      "Dead Axle Wheel",
-      "Camera Mount"
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,

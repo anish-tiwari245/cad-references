@@ -1,4 +1,4 @@
-import { MECHANISM_VOCAB, FULL_ROBOT, tagsFromText, orderTags } from "./tags.mjs";
+import { MECHANISM_VOCAB, FULL_ROBOT, RETIRED_PATTERNS, normalizeName, tagsFromText, orderTags } from "./tags.mjs";
 
 // Best-effort classification of a pin's title/assembly text into the fields
 // the website filters on. Ambiguous calls are flagged via needsReview rather
@@ -116,6 +116,9 @@ export function classifyMechanism(text) {
   if (primaryMatch) {
     primaryCategory = primaryMatch.tag;
     if (ROBOT_WORD.test(text) && primaryCategory !== "Number Plate / Misc") tags.add(FULL_ROBOT);
+  } else if (!FULL_ROBOT_HINT.test(text) && RETIRED_PATTERNS.some((re) => re.test(normalizeName(text)))) {
+    primaryCategory = "Other";
+    tags.add("Other");
   } else {
     primaryCategory = FULL_ROBOT;
     tags.add(FULL_ROBOT);

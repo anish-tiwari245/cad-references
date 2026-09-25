@@ -8,12 +8,9 @@ export const MECHANISM_VOCAB = [
   { tag: "Swerve Drive", re: /swerv|swerb|\bsw\s?mod|\bsdt\b|coax/i },
   { tag: "Differential / PTO", re: /differential|\bdiffy\b|\bdiffies\b|\bdiff\b|\bpto\b|power take.?off/i },
   { tag: "Vector Wheel", re: /vector\s*wheel|\bvector\s*v\d/i },
-  { tag: "Dead Axle Wheel", re: /dead\s*axle|dead\s*wheel|deadwheel|odometry|\bodom|\bodo\b/i },
   { tag: "Claw / Gripper", re: /\bclaws?\b|gripper|grabber/i },
   { tag: "Intake", re: /intake|\bintk/i },
   { tag: "Linear Slides / Extension", re: /\bslides?\b|extendo|\bextension\b|\blift\b|elevator/i },
-  { tag: "Camera Mount", re: /camera|\bcam\b|limelight|webcam|\bt265\b/i },
-  { tag: "Drone Launcher", re: /drone/i },
   { tag: "Turret", re: /turret|\bturr\b/i },
   { tag: "Shooter", re: /shooter|flywheel|\bshoot|indexer/i },
   { tag: "Number Plate / Misc", re: /number\s*plates?|team\s*plates?|sign\s*mounts?/i },
@@ -34,12 +31,18 @@ export const ALL_TAGS = [
   "Turret",
   "Shooter",
   "Differential / PTO",
-  "Dead Axle Wheel",
   "Vector Wheel",
-  "Camera Mount",
-  "Drone Launcher",
   "Number Plate / Misc",
   "Other",
+];
+
+// Mechanisms dropped from the vocabulary (dead axle/odometry, camera, drone).
+// A pin whose only mechanism signal is one of these is filed under "Other"
+// instead of defaulting to "Full Robot".
+export const RETIRED_PATTERNS = [
+  /dead\s*axle|dead\s*wheel|deadwheel|odometry|\bodom|\bodo\b/i,
+  /camera|\bcam\b|limelight|webcam|\bt265\b/i,
+  /drone/i,
 ];
 
 // "SwerveModule_v3" / "turret-base" -> "Swerve Module v3" / "turret base" so

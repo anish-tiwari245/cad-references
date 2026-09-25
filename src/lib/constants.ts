@@ -51,10 +51,7 @@ export const MECHANISM_TAGS: string[] = [
   "Turret",
   "Shooter",
   "Differential / PTO",
-  "Dead Axle Wheel",
   "Vector Wheel",
-  "Camera Mount",
-  "Drone Launcher",
   "Number Plate / Misc",
   "Other",
 ];
