@@ -39,6 +39,7 @@ export const ALL_TAGS = [
   "Camera Mount",
   "Drone Launcher",
   "Number Plate / Misc",
+  "Other",
 ];
 
 // "SwerveModule_v3" / "turret-base" -> "Swerve Module v3" / "turret base" so

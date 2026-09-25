@@ -56,8 +56,16 @@ export const MECHANISM_TAGS: string[] = [
   "Camera Mount",
   "Drone Launcher",
   "Number Plate / Misc",
+  "Other",
 ];
 
 export const CAD_PLATFORMS: string[] = ["Onshape", "Fusion 360", "GrabCAD", "Google Drive", "Other"];
 
 export const PROGRAMS: string[] = ["FTC", "FRC"];
+
+// FRC doesn't share FTC's named-season system, so the submission form offers
+// a plain build-season year instead: the last ~10 years, newest first.
+export function getFrcSeasonYears(count = 10): string[] {
+  const currentYear = new Date().getFullYear();
+  return Array.from({ length: count }, (_, i) => String(currentYear - i));
+}

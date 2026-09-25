@@ -1,5 +1,6 @@
 import CadCatalog from "@/components/CadCatalog";
 import ThemeToggle from "@/components/ThemeToggle";
+import SubmitCadButton from "@/components/SubmitCadButton";
 import { getCadEntries, getSeasonOptions, getMechanismOptions, getPlatformOptions, getProgramOptions } from "@/lib/data";
 import { MECHANISM_TAGS, CAD_PLATFORMS, PROGRAMS } from "@/lib/constants";
 
@@ -18,10 +19,13 @@ export default function Home() {
             <h1 className="text-3xl font-semibold tracking-tight text-text">FTC CAD Library</h1>
             <ThemeToggle />
           </div>
-          <p className="max-w-md text-sm leading-relaxed text-text-muted md:text-right">
-            Robot CAD shared by FIRST teams. Each entry links to the original file on Onshape, Fusion 360,
-            GrabCAD, or Google Drive.
-          </p>
+          <div className="flex flex-col items-start gap-3 md:items-end">
+            <p className="max-w-md text-sm leading-relaxed text-text-muted md:text-right">
+              Robot CAD shared by FIRST teams. Each entry links to the original file on Onshape, Fusion 360,
+              GrabCAD, or Google Drive.
+            </p>
+            <SubmitCadButton />
+          </div>
         </div>
       </header>
 
