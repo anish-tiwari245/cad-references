@@ -1,11 +1,16 @@
 import CadCatalog from "@/components/CadCatalog";
 import ThemeToggle from "@/components/ThemeToggle";
 import SubmitCadButton from "@/components/SubmitCadButton";
-import { getCadEntries, getSeasonOptions, getMechanismOptions, getPlatformOptions, getProgramOptions } from "@/lib/data";
+import { getEntries } from "@/lib/store";
+import { getSeasonOptions, getMechanismOptions, getPlatformOptions, getProgramOptions } from "@/lib/data";
 import { MECHANISM_TAGS, CAD_PLATFORMS, PROGRAMS } from "@/lib/constants";
 
-export default function Home() {
-  const entries = getCadEntries();
+// The library lives in Redis and the admin can change it any time, so render per request
+// (approvals and deletions show up immediately).
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const entries = await getEntries();
   const seasonOptions = getSeasonOptions(entries);
   const mechanismOptions = getMechanismOptions(entries, MECHANISM_TAGS);
   const platformOptions = getPlatformOptions(entries, CAD_PLATFORMS);

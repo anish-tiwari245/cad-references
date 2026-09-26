@@ -31,13 +31,14 @@ export default function CadCard({ entry }: { entry: CadEntry }) {
 
   return (
     <article className="flex flex-col overflow-hidden rounded-md border border-border bg-surface transition-shadow hover:shadow-[0_2px_12px_rgba(32,29,26,0.08)]">
-      <div className="relative aspect-[4/3] w-full border-b border-border bg-bg">
+      <div className={`relative aspect-[4/3] w-full border-b border-border ${entry.thumbnail ? "bg-white" : "bg-bg"}`}>
         {entry.thumbnail ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={entry.thumbnail}
             alt={`${entry.title} thumbnail`}
-            className="absolute inset-0 h-full w-full object-cover"
+            // Renders we fetched from Onshape have wide white margins, so show them whole.
+            className={`absolute inset-0 h-full w-full ${entry.thumbnail.startsWith("/api/thumb/") ? "object-contain" : "object-cover"}`}
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-xs text-text-muted">

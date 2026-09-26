@@ -1,69 +1,61 @@
 import { NextResponse } from "next/server";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
-import path from "node:path";
+import { addPending, hitRateLimit } from "@/lib/store";
+import { clientIp } from "@/lib/adminAuth";
+import {
+  cleanHttpUrl,
+  cleanOptionalEmail,
+  cleanOptionalText,
+  cleanPlatform,
+  cleanProgram,
+  cleanSeason,
+  cleanTags,
+} from "@/lib/validation";
 
-// Backup log only. The primary review path is the Formspree email, so this
-// file exists in case an email gets missed, per the approval-flow design:
-// nothing here ever gets published automatically.
-const LOG_PATH = path.join(process.cwd(), "data", "pending-submissions.json");
+// Public endpoint: queues a submission for admin review. Nothing here ever
+// publishes to the library. Everything is validated again server-side because
+// the client-side checks can be bypassed.
+const SUBMISSIONS_PER_HOUR = 6;
 
-interface SubmissionPayload {
-  cadUrl?: unknown;
-  program?: unknown;
-  season?: unknown;
-  tags?: unknown;
-  cadPlatform?: unknown;
-  teamName?: unknown;
-  contactEmail?: unknown;
-}
-
-function isNonEmptyString(v: unknown): v is string {
-  return typeof v === "string" && v.trim().length > 0;
+function bad(error: string, status = 400) {
+  return NextResponse.json({ ok: false, error }, { status });
 }
 
 export async function POST(request: Request) {
-  let body: SubmissionPayload;
+  let body: Record<string, unknown>;
   try {
     body = await request.json();
   } catch {
-    return NextResponse.json({ ok: false, error: "Invalid JSON body." }, { status: 400 });
+    return bad("Invalid JSON body.");
   }
 
-  // Minimal server-side shape check. Full validation already happened
-  // client-side; this just guards the log file against garbage.
-  if (
-    !isNonEmptyString(body.cadUrl) ||
-    !isNonEmptyString(body.program) ||
-    !isNonEmptyString(body.season) ||
-    !isNonEmptyString(body.cadPlatform) ||
-    !Array.isArray(body.tags) ||
-    body.tags.length === 0
-  ) {
-    return NextResponse.json({ ok: false, error: "Missing required fields." }, { status: 400 });
+  const title = cleanOptionalText(body.title, 120);
+  const cadUrl = cleanHttpUrl(body.cadUrl);
+  const program = cleanProgram(body.program);
+  const season = program ? cleanSeason(program, body.season) : null;
+  const tags = cleanTags(body.tags);
+  const cadPlatform = cleanPlatform(body.cadPlatform);
+  const teamName = cleanOptionalText(body.teamName, 100);
+  const contactEmail = cleanOptionalEmail(body.contactEmail);
+
+  if (!title) return bad("A title is required (120 characters max).");
+  if (!cadUrl) return bad("CAD link must be a valid http(s) URL.");
+  if (!program) return bad("Program must be FTC or FRC.");
+  if (!season) return bad("Season is not valid for that program.");
+  if (!tags) return bad("Pick at least one valid mechanism tag.");
+  if (!cadPlatform) return bad("CAD platform is not valid.");
+  if (teamName === undefined) return bad("Team name is too long.");
+  if (contactEmail === undefined) return bad("Contact email is not valid.");
+
+  if (await hitRateLimit(`submit:${clientIp(request)}`, SUBMISSIONS_PER_HOUR, 60 * 60)) {
+    return bad("Too many submissions from this connection. Try again later.", 429);
   }
 
-  const entry = {
-    cadUrl: body.cadUrl,
-    program: body.program,
-    season: body.season,
-    tags: body.tags,
-    cadPlatform: body.cadPlatform,
-    teamName: isNonEmptyString(body.teamName) ? body.teamName : null,
-    contactEmail: isNonEmptyString(body.contactEmail) ? body.contactEmail : null,
-    submittedAt: new Date().toISOString(),
-  };
-
-  let existing: unknown[] = [];
   try {
-    existing = JSON.parse(await readFile(LOG_PATH, "utf-8"));
-    if (!Array.isArray(existing)) existing = [];
-  } catch {
-    existing = [];
+    await addPending({ title, cadUrl, program, season, tags, cadPlatform, teamName, contactEmail });
+  } catch (err) {
+    console.error("[api/submit] could not queue submission:", err);
+    return bad("Could not save the submission right now.", 503);
   }
-  existing.push(entry);
-
-  await mkdir(path.dirname(LOG_PATH), { recursive: true });
-  await writeFile(LOG_PATH, JSON.stringify(existing, null, 2), "utf-8");
 
   return NextResponse.json({ ok: true });
 }

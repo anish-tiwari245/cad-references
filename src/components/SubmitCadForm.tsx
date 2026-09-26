@@ -26,6 +26,7 @@ function toggleInSet(set: Set<string>, value: string): Set<string> {
 type Status = "idle" | "submitting" | "success" | "error";
 
 export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
+  const [title, setTitle] = useState("");
   const [cadUrl, setCadUrl] = useState("");
   const [program, setProgram] = useState<"FTC" | "FRC" | "">("");
   const [season, setSeason] = useState("");
@@ -44,6 +45,9 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
 
   function validate(): Record<string, string> {
     const next: Record<string, string> = {};
+
+    if (!title.trim()) next.title = "Give this a title.";
+    else if (title.trim().length > 120) next.title = "Keep the title under 120 characters.";
 
     const url = cadUrl.trim();
     if (!url) {
@@ -73,6 +77,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
   }
 
   function resetFields() {
+    setTitle("");
     setCadUrl("");
     setProgram("");
     setSeason("");
@@ -114,6 +119,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
     const tagList = [...tags];
 
     const emailPayload: Record<string, string> = {
+      Title: title.trim(),
       "CAD Link": cadUrl.trim(),
       Program: program,
       Season: season,
@@ -121,23 +127,12 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
       "CAD Platform": cadPlatform,
       "Team Name": teamName.trim() || "(not provided)",
       "Contact Email": contactEmail.trim() || "(not provided)",
-      _subject: `New CAD submission${teamName.trim() ? `: ${teamName.trim()}` : ""}`,
+      _subject: `New CAD submission: ${title.trim()}`,
     };
     if (contactEmail.trim()) emailPayload._replyto = contactEmail.trim();
 
-    if (!endpoint) {
-      // Stub mode: no Formspree endpoint configured yet. Log what would have
-      // been sent so the feature is testable before NEXT_PUBLIC_FORMSPREE_ENDPOINT exists.
-      console.warn(
-        "[SubmitCadForm] NEXT_PUBLIC_FORMSPREE_ENDPOINT is not set, so nothing was sent. Payload:",
-        emailPayload
-      );
-      setStatus("error");
-      setStatusMessage("This form isn't finished being set up yet, so nothing was sent. Please try again later.");
-      return;
-    }
-
-    const backupLogPayload = {
+    const queuePayload = {
+      title: title.trim(),
       cadUrl: cadUrl.trim(),
       program,
       season,
@@ -147,30 +142,37 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
       contactEmail: contactEmail.trim() || null,
     };
 
-    try {
-      const [formspreeResult] = await Promise.allSettled([
-        fetch(endpoint, {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify(emailPayload),
-        }),
-        // Backup log only. Whether it works or not doesn't change what the user sees.
-        fetch("/api/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(backupLogPayload),
-        }).catch((err) => console.error("[SubmitCadForm] backup log write failed:", err)),
-      ]);
+    if (!endpoint) {
+      console.warn("[SubmitCadForm] NEXT_PUBLIC_FORMSPREE_ENDPOINT is not set, so no notification email will be sent. Payload:", emailPayload);
+    }
 
-      if (formspreeResult.status === "fulfilled" && formspreeResult.value.ok) {
-        setStatus("success");
-        setStatusMessage("Thanks, we got it. We'll take a look soon.");
-        resetFields();
-      } else {
-        throw new Error("Formspree submission failed");
-      }
-    } catch (err) {
-      console.error("[SubmitCadForm] submission failed:", err);
+    // Two channels: the review queue (what the admin page approves) and a
+    // notification email. The submission counts as received if either works.
+    const [queueResult, emailResult] = await Promise.allSettled([
+      fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(queuePayload),
+      }),
+      endpoint
+        ? fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json", Accept: "application/json" },
+            body: JSON.stringify(emailPayload),
+          })
+        : Promise.reject(new Error("no endpoint")),
+    ]);
+
+    const queued = queueResult.status === "fulfilled" && queueResult.value.ok;
+    const emailed = emailResult.status === "fulfilled" && emailResult.value.ok;
+    if (!queued) console.error("[SubmitCadForm] could not queue submission:", queueResult);
+    if (endpoint && !emailed) console.error("[SubmitCadForm] notification email failed:", emailResult);
+
+    if (queued || emailed) {
+      setStatus("success");
+      setStatusMessage("Thanks, we got it. We'll take a look soon.");
+      resetFields();
+    } else {
       setStatus("error");
       setStatusMessage("Something went wrong sending that. Give it another try in a minute.");
     }
@@ -225,6 +227,31 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
           value={honeypot}
           onChange={(e) => setHoneypot(e.target.value)}
         />
+      </div>
+
+      <div>
+        <label htmlFor="title" className={FIELD_LABEL}>
+          Title *
+        </label>
+        <input
+          id="title"
+          type="text"
+          maxLength={120}
+          placeholder="e.g. Decode Robot V2"
+          value={title}
+          onChange={(e) => {
+            setTitle(e.target.value);
+            if (attempted) setErrors(validate());
+          }}
+          className={`${INPUT} ${fieldBorder(!!errors.title)}`}
+          aria-invalid={!!errors.title}
+          aria-describedby={errors.title ? "title-error" : undefined}
+        />
+        {errors.title && (
+          <p id="title-error" className="mt-1 text-xs text-red-500">
+            {errors.title}
+          </p>
+        )}
       </div>
 
       <div>

@@ -10,7 +10,9 @@
     "lint": "next lint",
     "scrape": "node scraper/scrape.mjs",
     "tag": "node scraper/tag-mechanisms.mjs",
-    "build-data": "node scraper/build-dataset.mjs"
+    "build-data": "node scraper/build-dataset.mjs",
+    "migrate": "node scraper/migrate-to-redis.mjs",
+    "whiten": "node scraper/whiten-thumbnails.mjs"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
@@ -24,6 +26,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@upstash/redis": "^1.39.0",
     "next": "^16.3.6",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"

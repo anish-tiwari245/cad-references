@@ -17,3 +17,16 @@ export interface CadEntry {
   needsReview: boolean;
   reviewReason: string | null;
 }
+
+export interface PendingSubmission {
+  id: string;
+  title: string;
+  cadUrl: string;
+  program: Program;
+  season: string;
+  tags: string[];
+  cadPlatform: CadPlatform;
+  teamName: string | null;
+  contactEmail: string | null;
+  submittedAt: string;
+}
