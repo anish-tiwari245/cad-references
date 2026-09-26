@@ -33,13 +33,7 @@ export default async function Home() {
             <h1 className="text-3xl font-semibold tracking-tight text-text">FTC CAD Library</h1>
             <ThemeToggle />
           </div>
-          <div className="flex flex-col items-start gap-3 md:items-end">
-            <p className="max-w-md text-sm leading-relaxed text-text-muted md:text-right">
-              Robot CAD shared by FIRST teams. Each entry links to the original file on Onshape, Fusion 360,
-              GrabCAD, or Google Drive.
-            </p>
-            <SubmitCadButton />
-          </div>
+          <SubmitCadButton />
         </div>
       </header>
 
