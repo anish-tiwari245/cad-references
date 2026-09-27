@@ -26,6 +26,7 @@ function toggleInSet(set: Set<string>, value: string): Set<string> {
 type Status = "idle" | "submitting" | "success" | "error";
 
 export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
+  const [kind, setKind] = useState<"cad" | "resource">("cad");
   const [title, setTitle] = useState("");
   const [cadUrl, setCadUrl] = useState("");
   const [program, setProgram] = useState<"FTC" | "FRC" | "">("");
@@ -65,8 +66,8 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
 
     if (!program) next.program = "Select a program.";
     if (!season) next.season = "Select a season.";
-    if (tags.size === 0) next.tags = "Select at least one mechanism tag.";
-    if (!cadPlatform) next.cadPlatform = "Select a CAD platform.";
+    if (kind === "cad" && tags.size === 0) next.tags = "Select at least one mechanism tag.";
+    if (!cadPlatform) next.cadPlatform = "Select a platform.";
 
     const email = contactEmail.trim();
     if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -77,6 +78,7 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
   }
 
   function resetFields() {
+    setKind("cad");
     setTitle("");
     setCadUrl("");
     setProgram("");
@@ -93,6 +95,12 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
   function handleProgramChange(next: "FTC" | "FRC") {
     setProgram(next);
     setSeason(""); // season options differ between programs, so the old value would be stale
+    if (attempted) setErrors(validate());
+  }
+
+  function handleKindChange(next: "cad" | "resource") {
+    setKind(next);
+    if (next === "resource") setTags(new Set()); // tags aren't used for resources
     if (attempted) setErrors(validate());
   }
 
@@ -119,19 +127,21 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
     const tagList = [...tags];
 
     const emailPayload: Record<string, string> = {
+      Type: kind === "resource" ? "Resource" : "CAD File",
       Title: title.trim(),
-      "CAD Link": cadUrl.trim(),
+      Link: cadUrl.trim(),
       Program: program,
       Season: season,
-      "Mechanism Tags": tagList.join(", "),
-      "CAD Platform": cadPlatform,
+      ...(kind === "cad" ? { "Mechanism Tags": tagList.join(", ") } : {}),
+      Platform: cadPlatform,
       "Team Name": teamName.trim() || "(not provided)",
       "Contact Email": contactEmail.trim() || "(not provided)",
-      _subject: `New CAD submission: ${title.trim()}`,
+      _subject: `New ${kind === "resource" ? "resource" : "CAD"} submission: ${title.trim()}`,
     };
     if (contactEmail.trim()) emailPayload._replyto = contactEmail.trim();
 
     const queuePayload = {
+      kind,
       title: title.trim(),
       cadUrl: cadUrl.trim(),
       program,
@@ -210,8 +220,35 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
   return (
     <form onSubmit={handleSubmit} noValidate className="relative flex flex-col gap-5">
       <p className="text-sm leading-relaxed text-text-muted">
-        Paste a link to your team&apos;s CAD and we&apos;ll take a look. Nothing goes in the library until it&apos;s approved.
+        Paste a link and we&apos;ll take a look. Nothing goes in the library until it&apos;s approved.
       </p>
+
+      <fieldset>
+        <legend className={FIELD_LABEL}>What are you submitting? *</legend>
+        <div className="mt-2 flex gap-2">
+          {(["cad", "resource"] as const).map((k) => (
+            <button
+              key={k}
+              type="button"
+              aria-pressed={kind === k}
+              onClick={() => handleKindChange(k)}
+              className={
+                "rounded-sm border px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent " +
+                (kind === k
+                  ? "border-accent bg-accent text-white"
+                  : "border-border-strong bg-surface text-text hover:border-accent/50 hover:text-accent")
+              }
+            >
+              {k === "cad" ? "CAD file" : "Resource"}
+            </button>
+          ))}
+        </div>
+        <p className="mt-1 text-xs text-text-muted">
+          {kind === "cad"
+            ? "A specific robot or part's CAD (Onshape, Fusion 360, GrabCAD, Google Drive)."
+            : "Something else useful, like a website, guide, spreadsheet, or design gallery."}
+        </p>
+      </fieldset>
 
       {/* Honeypot: clipped to zero size (not display:none), so it still
           renders for bots that check computed visibility, but real users
@@ -256,13 +293,13 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
 
       <div>
         <label htmlFor="cadUrl" className={FIELD_LABEL}>
-          CAD link *
+          Link *
         </label>
         <input
           id="cadUrl"
           type="text"
           inputMode="url"
-          placeholder="https://cad.onshape.com/documents/..."
+          placeholder={kind === "cad" ? "https://cad.onshape.com/documents/..." : "https://..."}
           value={cadUrl}
           onChange={(e) => {
             setCadUrl(e.target.value);
@@ -325,22 +362,24 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
         {errors.season && <p className="mt-1 text-xs text-red-500">{errors.season}</p>}
       </div>
 
-      <div>
-        <ChipGroup
-          label="Mechanism tags *"
-          options={MECHANISM_TAGS}
-          selected={tags}
-          onToggle={(v) => {
-            setTags((prev) => toggleInSet(prev, v));
-            if (attempted) setErrors(validate());
-          }}
-        />
-        {errors.tags && <p className="mt-1 text-xs text-red-500">{errors.tags}</p>}
-      </div>
+      {kind === "cad" && (
+        <div>
+          <ChipGroup
+            label="Category tags *"
+            options={MECHANISM_TAGS}
+            selected={tags}
+            onToggle={(v) => {
+              setTags((prev) => toggleInSet(prev, v));
+              if (attempted) setErrors(validate());
+            }}
+          />
+          {errors.tags && <p className="mt-1 text-xs text-red-500">{errors.tags}</p>}
+        </div>
+      )}
 
       <div>
         <label htmlFor="cadPlatform" className={FIELD_LABEL}>
-          CAD platform *
+          Platform *
         </label>
         <select
           id="cadPlatform"

@@ -28,21 +28,23 @@ export async function POST(request: Request) {
     return bad("Invalid JSON body.");
   }
 
+  const kind = body.kind === "resource" ? "resource" : "cad";
   const title = cleanOptionalText(body.title, 120);
   const cadUrl = cleanHttpUrl(body.cadUrl);
   const program = cleanProgram(body.program);
   const season = program ? cleanSeason(program, body.season) : null;
-  const tags = cleanTags(body.tags);
+  // Resources (websites, doc galleries, ...) aren't a mechanism, so no tags are required.
+  const tags = kind === "resource" ? [] : cleanTags(body.tags);
   const cadPlatform = cleanPlatform(body.cadPlatform);
   const teamName = cleanOptionalText(body.teamName, 100);
   const contactEmail = cleanOptionalEmail(body.contactEmail);
 
   if (!title) return bad("A title is required (120 characters max).");
-  if (!cadUrl) return bad("CAD link must be a valid http(s) URL.");
+  if (!cadUrl) return bad("Link must be a valid http(s) URL.");
   if (!program) return bad("Program must be FTC or FRC.");
   if (!season) return bad("Season is not valid for that program.");
   if (!tags) return bad("Pick at least one valid mechanism tag.");
-  if (!cadPlatform) return bad("CAD platform is not valid.");
+  if (!cadPlatform) return bad("Platform is not valid.");
   if (teamName === undefined) return bad("Team name is too long.");
   if (contactEmail === undefined) return bad("Contact email is not valid.");
 
@@ -51,7 +53,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    await addPending({ title, cadUrl, program, season, tags, cadPlatform, teamName, contactEmail });
+    await addPending({ kind, title, cadUrl, program, season, tags, cadPlatform, teamName, contactEmail });
   } catch (err) {
     console.error("[api/submit] could not queue submission:", err);
     return bad("Could not save the submission right now.", 503);

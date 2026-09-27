@@ -1,4 +1,4 @@
-import CadCatalog from "@/components/CadCatalog";
+import LibraryTabs from "@/components/LibraryTabs";
 import ThemeToggle from "@/components/ThemeToggle";
 import SubmitCadButton from "@/components/SubmitCadButton";
 import { getEntries } from "@/lib/store";
@@ -11,10 +11,14 @@ export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const entries = await getEntries();
-  const seasonOptions = getSeasonOptions(entries);
-  const mechanismOptions = getMechanismOptions(entries, MECHANISM_TAGS);
-  const platformOptions = getPlatformOptions(entries, CAD_PLATFORMS);
-  const programOptions = getProgramOptions(entries, PROGRAMS);
+  // Resources (websites, doc galleries, spreadsheets, ...) live on their own
+  // tab and don't have mechanism tags, so filter options only look at CAD files.
+  const cadEntries = entries.filter((e) => e.kind !== "resource");
+  const resourceEntries = entries.filter((e) => e.kind === "resource");
+  const seasonOptions = getSeasonOptions(cadEntries);
+  const mechanismOptions = getMechanismOptions(cadEntries, MECHANISM_TAGS);
+  const platformOptions = getPlatformOptions(cadEntries, CAD_PLATFORMS);
+  const programOptions = getProgramOptions(cadEntries, PROGRAMS);
 
   return (
     <main>
@@ -37,8 +41,9 @@ export default async function Home() {
         </div>
       </header>
 
-      <CadCatalog
-        entries={entries}
+      <LibraryTabs
+        cadEntries={cadEntries}
+        resourceEntries={resourceEntries}
         seasonOptions={seasonOptions}
         mechanismOptions={mechanismOptions}
         platformOptions={platformOptions}

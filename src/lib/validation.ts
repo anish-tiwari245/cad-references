@@ -1,4 +1,4 @@
-import { CAD_PLATFORMS, MECHANISM_TAGS, SEASON_ORDER } from "./constants";
+import { CAD_PLATFORMS, MECHANISM_TAGS, SEASON_ORDER, UNSPECIFIED_SEASON } from "./constants";
 import type { CadPlatform, Program } from "./types";
 
 export function cleanHttpUrl(value: unknown, maxLength = 500): string | null {
@@ -29,9 +29,10 @@ export function cleanProgram(value: unknown): Program | null {
   return value === "FTC" || value === "FRC" ? value : null;
 }
 
-export function cleanSeason(program: Program, value: unknown): string | null {
+export function cleanSeason(program: Program, value: unknown, allowUnspecified = false): string | null {
   if (typeof value !== "string") return null;
   const season = value.trim();
+  if (allowUnspecified && season === UNSPECIFIED_SEASON) return season;
   if (program === "FTC") return SEASON_ORDER.includes(season) ? season : null;
   const year = Number(season);
   const maxYear = new Date().getFullYear() + 1;

@@ -41,10 +41,10 @@ function PendingCard({
             {submission.cadUrl}
           </a>
           <p className="mt-1 text-xs text-text-muted">
-            {submission.program} · {submission.program === "FTC" ? formatSeasonLabel(submission.season) : submission.season} ·{" "}
-            {submission.cadPlatform}
+            {submission.kind === "resource" ? "Resource" : "CAD file"} · {submission.program} ·{" "}
+            {submission.program === "FTC" ? formatSeasonLabel(submission.season) : submission.season} · {submission.cadPlatform}
           </p>
-          <p className="mt-1 text-xs text-text-muted">{submission.tags.join(", ")}</p>
+          {submission.tags.length > 0 && <p className="mt-1 text-xs text-text-muted">{submission.tags.join(", ")}</p>}
           <p className="mt-1 text-xs text-text-muted">
             {submission.teamName ?? "No team given"}
             {submission.contactEmail && (
@@ -109,6 +109,7 @@ function PendingCard({
           <EntryEditor
             id={submission.id}
             initial={{
+              kind: submission.kind,
               title: submission.title ?? "",
               cadUrl: submission.cadUrl,
               program: submission.program,
@@ -130,48 +131,95 @@ function PendingCard({
 
 function LibraryRow({ entry, busy, send }: { entry: CadEntry; busy: boolean; send: Send }) {
   const [confirming, setConfirming] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [draftId, setDraftId] = useState("");
+
+  async function save(values: EntryValues) {
+    const ok = await send("/api/admin/update", { id: entry.id, draftId, ...values }, `Saved "${values.title.trim()}".`);
+    if (ok) setEditing(false);
+  }
+
   return (
-    <li className="flex items-center gap-3 border-b border-border py-2 last:border-b-0">
-      {entry.thumbnail ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={entry.thumbnail} alt="" className="h-10 w-14 shrink-0 rounded-sm border border-border bg-white object-contain" />
-      ) : (
-        <div className="h-10 w-14 shrink-0 rounded-sm border border-border bg-bg" />
-      )}
-      <div className="min-w-0 flex-1">
-        <p className="truncate text-sm font-medium text-text">
-          {entry.title}
-          {entry.assemblyName !== entry.title && <span className="font-normal text-text-muted"> | {entry.assemblyName}</span>}
-        </p>
-        <p className="truncate text-xs text-text-muted">
-          {entry.program} · {entry.primaryCategory} · {entry.cadPlatform}
-        </p>
-      </div>
-      {confirming ? (
-        <div className="flex shrink-0 items-center gap-2">
-          <span className="text-xs text-text-muted">Delete?</span>
-          <button
-            type="button"
-            disabled={busy}
-            onClick={() => void send("/api/admin/delete", { id: entry.id }, `Deleted "${entry.title}".`)}
-            className={BTN_SOLID}
-          >
-            Yes, delete
-          </button>
-          <button type="button" onClick={() => setConfirming(false)} className={BTN_OUTLINE}>
-            Keep
-          </button>
+    <li className="border-b border-border py-2 last:border-b-0">
+      <div className="flex items-center gap-3">
+        {entry.thumbnail ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={entry.thumbnail} alt="" className="h-10 w-14 shrink-0 rounded-sm border border-border bg-white object-contain" />
+        ) : (
+          <div className="h-10 w-14 shrink-0 rounded-sm border border-border bg-bg" />
+        )}
+        <div className="min-w-0 flex-1">
+          <p className="truncate text-sm font-medium text-text">
+            {entry.title}
+            {entry.assemblyName !== entry.title && <span className="font-normal text-text-muted"> | {entry.assemblyName}</span>}
+          </p>
+          <p className="truncate text-xs text-text-muted">
+            {entry.program} · {entry.kind === "resource" ? "Resource" : entry.primaryCategory} · {entry.cadPlatform}
+          </p>
         </div>
-      ) : (
-        <div className="flex shrink-0 items-center gap-2">
-          {entry.url && (
-            <a href={entry.url} target="_blank" rel="noopener noreferrer" className={BTN_OUTLINE}>
-              Open
-            </a>
-          )}
-          <button type="button" onClick={() => setConfirming(true)} className={BTN_OUTLINE}>
-            Delete
-          </button>
+        {!editing &&
+          (confirming ? (
+            <div className="flex shrink-0 items-center gap-2">
+              <span className="text-xs text-text-muted">Delete?</span>
+              <button
+                type="button"
+                disabled={busy}
+                onClick={() => void send("/api/admin/delete", { id: entry.id }, `Deleted "${entry.title}".`)}
+                className={BTN_SOLID}
+              >
+                Yes, delete
+              </button>
+              <button type="button" onClick={() => setConfirming(false)} className={BTN_OUTLINE}>
+                Keep
+              </button>
+            </div>
+          ) : (
+            <div className="flex shrink-0 items-center gap-2">
+              {entry.url && (
+                <a href={entry.url} target="_blank" rel="noopener noreferrer" className={BTN_OUTLINE}>
+                  Open
+                </a>
+              )}
+              <button
+                type="button"
+                onClick={() => {
+                  setDraftId(newDraftId());
+                  setEditing(true);
+                }}
+                className={BTN_OUTLINE}
+              >
+                Edit
+              </button>
+              <button type="button" onClick={() => setConfirming(true)} className={BTN_OUTLINE}>
+                Delete
+              </button>
+            </div>
+          ))}
+      </div>
+
+      {editing && (
+        <div className="mt-3 pb-2">
+          <EntryEditor
+            key={draftId}
+            id={draftId}
+            initial={{
+              kind: entry.kind,
+              title: entry.title,
+              assemblyName: entry.assemblyName === entry.title ? "" : entry.assemblyName,
+              cadUrl: entry.url ?? "",
+              program: entry.program,
+              season: entry.season,
+              cadPlatform: entry.cadPlatform,
+              tags: entry.tags,
+              primaryCategory: entry.primaryCategory,
+              thumbnail: entry.thumbnail ?? "",
+            }}
+            autoPreview={false}
+            submitLabel="Save changes"
+            busy={busy}
+            onCancel={() => setEditing(false)}
+            onSubmit={(v) => void save(v)}
+          />
         </div>
       )}
     </li>
@@ -267,7 +315,7 @@ export default function AdminPanel({ pending, entries }: { pending: PendingSubmi
           Add a file
         </a>
         <a href="#library" className="text-accent underline-offset-2 hover:underline">
-          Library and delete ({entries.length})
+          Library, edit and delete ({entries.length})
         </a>
       </nav>
 
@@ -311,7 +359,7 @@ export default function AdminPanel({ pending, entries }: { pending: PendingSubmi
             <EntryEditor
               key={draftId}
               id={draftId}
-              initial={{ title: "", cadUrl: "", program: "FTC", season: "", cadPlatform: "Onshape", tags: [] }}
+              initial={{ kind: "cad", title: "", cadUrl: "", program: "FTC", season: "", cadPlatform: "Onshape", tags: [] }}
               autoPreview={false}
               submitLabel="Add to library"
               busy={busy}
@@ -342,7 +390,7 @@ export default function AdminPanel({ pending, entries }: { pending: PendingSubmi
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search to find a file to delete…"
+            placeholder="Search to find a file to edit or delete…"
             aria-label="Search library"
             className={`${INPUT} mt-0 max-w-xs`}
           />

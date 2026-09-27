@@ -30,7 +30,8 @@ export async function POST(request: Request) {
 
     const tags = new Set(pending.tags);
     let thumbnail = "";
-    const ref = parseOnshapeUrl(pending.cadUrl);
+    // Resources aren't CAD documents, so there's nothing to detect for them.
+    const ref = pending.kind === "cad" ? parseOnshapeUrl(pending.cadUrl) : null;
     if (ref) {
       const [thumb, detected] = await Promise.all([ensureThumbnail(pending.id, ref), detectTags(ref)]);
       if (thumb.thumbnail) thumbnail = thumb.thumbnail;
@@ -38,6 +39,7 @@ export async function POST(request: Request) {
     }
 
     fields = {
+      kind: pending.kind,
       title,
       program: pending.program,
       season: pending.season,

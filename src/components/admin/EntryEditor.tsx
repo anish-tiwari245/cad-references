@@ -3,9 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import ChipGroup from "../ChipGroup";
 import { BTN_OUTLINE, BTN_SOLID, INPUT, LABEL } from "./adminStyles";
-import { CAD_PLATFORMS, MECHANISM_TAGS, SEASON_ORDER, formatSeasonLabel, getFrcSeasonYears } from "@/lib/constants";
+import { CAD_PLATFORMS, MECHANISM_TAGS, SEASON_ORDER, UNSPECIFIED_SEASON, formatSeasonLabel, getFrcSeasonYears } from "@/lib/constants";
 
 export interface EntryValues {
+  kind: "cad" | "resource";
   title: string;
   assemblyName: string;
   program: string;
@@ -39,7 +40,7 @@ function toggle(set: Set<string>, value: string): Set<string> {
 }
 
 export function seasonChoices(program: string, current: string): string[] {
-  const base = program === "FRC" ? getFrcSeasonYears(15) : [...SEASON_ORDER].reverse();
+  const base = [...(program === "FRC" ? getFrcSeasonYears(15) : [...SEASON_ORDER].reverse()), UNSPECIFIED_SEASON];
   return current && !base.includes(current) ? [current, ...base] : base;
 }
 
@@ -104,24 +105,36 @@ export default function EntryEditor({
   onCancel,
 }: {
   id: string;
-  initial: { title: string; cadUrl: string; program: string; season: string; cadPlatform: string; tags: string[] };
+  initial: {
+    title: string;
+    cadUrl: string;
+    program: string;
+    season: string;
+    cadPlatform: string;
+    tags: string[];
+    kind?: "cad" | "resource";
+    assemblyName?: string;
+    thumbnail?: string;
+    primaryCategory?: string;
+  };
   autoPreview: boolean;
   submitLabel: string;
   busy: boolean;
   onSubmit: (values: EntryValues) => void;
   onCancel: () => void;
 }) {
+  const [kind, setKind] = useState<"cad" | "resource">(initial.kind ?? "cad");
   const [title, setTitle] = useState(initial.title);
-  const [assemblyName, setAssemblyName] = useState("");
+  const [assemblyName, setAssemblyName] = useState(initial.assemblyName ?? "");
   const [program, setProgram] = useState(initial.program);
   const [season, setSeason] = useState(initial.season || seasonChoices(initial.program, "")[0]);
   const [cadPlatform, setCadPlatform] = useState(initial.cadPlatform);
   const [tags, setTags] = useState<Set<string>>(new Set(initial.tags));
-  const [primary, setPrimary] = useState(initial.tags.includes("Full Robot") ? "Full Robot" : (initial.tags[0] ?? ""));
-  const [thumbnail, setThumbnail] = useState("");
+  const [primary, setPrimary] = useState(initial.primaryCategory ?? (initial.tags.includes("Full Robot") ? "Full Robot" : (initial.tags[0] ?? "")));
+  const [thumbnail, setThumbnail] = useState(initial.thumbnail ?? "");
   const [cadUrl, setCadUrl] = useState(initial.cadUrl);
   const [preview, setPreview] = useState<Preview>({ status: "idle" });
-  const lastPreviewedUrl = useRef(autoPreview ? initial.cadUrl.trim() : "");
+  const lastPreviewedUrl = useRef(initial.cadUrl.trim());
   const started = useRef(false);
 
   const tagList = MECHANISM_TAGS.filter((t) => tags.has(t));
@@ -130,7 +143,7 @@ export default function EntryEditor({
 
   async function runPreview(force: boolean) {
     const url = cadUrl.trim();
-    if (!url) return;
+    if (!url || kind === "resource") return;
     lastPreviewedUrl.current = url;
     setPreview({ status: "loading" });
     try {
@@ -177,10 +190,33 @@ export default function EntryEditor({
     setSeason(seasonChoices(next, "")[0]);
   }
 
-  const canSubmit = !busy && preview.status !== "loading" && tagList.length > 0 && title.trim() !== "" && cadUrl.trim() !== "";
+  const canSubmit =
+    !busy && preview.status !== "loading" && (kind === "resource" || tagList.length > 0) && title.trim() !== "" && cadUrl.trim() !== "";
 
   return (
     <div className="grid gap-4 border-t border-border pt-4">
+      <fieldset>
+        <legend className={LABEL}>Type</legend>
+        <div className="mt-1 flex gap-2">
+          {(["cad", "resource"] as const).map((k) => (
+            <button
+              key={k}
+              type="button"
+              aria-pressed={kind === k}
+              onClick={() => setKind(k)}
+              className={
+                "rounded-sm border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent " +
+                (kind === k
+                  ? "border-accent bg-accent text-white"
+                  : "border-border-strong bg-surface text-text hover:border-accent/50 hover:text-accent")
+              }
+            >
+              {k === "cad" ? "CAD file" : "Resource"}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
           <label className={LABEL} htmlFor={fid("title")}>
@@ -203,7 +239,7 @@ export default function EntryEditor({
             value={cadUrl}
             onChange={(e) => setCadUrl(e.target.value)}
             onBlur={() => {
-              if (cadUrl.trim() && cadUrl.trim() !== lastPreviewedUrl.current) void runPreview(true);
+              if (kind === "cad" && cadUrl.trim() && cadUrl.trim() !== lastPreviewedUrl.current) void runPreview(true);
             }}
             className={INPUT}
             placeholder="https://cad.onshape.com/documents/..."
@@ -240,21 +276,27 @@ export default function EntryEditor({
             ))}
           </select>
         </div>
-        <div>
-          <label className={LABEL} htmlFor={fid("primary")}>
-            Primary category (badge)
-          </label>
-          <select id={fid("primary")} value={effectivePrimary} onChange={(e) => setPrimary(e.target.value)} className={INPUT}>
-            {tagList.length === 0 && <option value="">Pick a tag first</option>}
-            {tagList.map((t) => (
-              <option key={t}>{t}</option>
-            ))}
-          </select>
-        </div>
+        {kind === "cad" && (
+          <div>
+            <label className={LABEL} htmlFor={fid("primary")}>
+              Primary category (badge)
+            </label>
+            <select id={fid("primary")} value={effectivePrimary} onChange={(e) => setPrimary(e.target.value)} className={INPUT}>
+              {tagList.length === 0 && <option value="">Pick a tag first</option>}
+              {tagList.map((t) => (
+                <option key={t}>{t}</option>
+              ))}
+            </select>
+          </div>
+        )}
       </div>
 
-      <ChipGroup label="Tags" options={MECHANISM_TAGS} selected={tags} onToggle={(v) => setTags((prev) => toggle(prev, v))} />
-      <PreviewNote preview={preview} />
+      {kind === "cad" && (
+        <>
+          <ChipGroup label="Tags" options={MECHANISM_TAGS} selected={tags} onToggle={(v) => setTags((prev) => toggle(prev, v))} />
+          <PreviewNote preview={preview} />
+        </>
+      )}
 
       <div>
         <label className={LABEL} htmlFor={fid("thumb")}>
@@ -265,9 +307,11 @@ export default function EntryEditor({
           // eslint-disable-next-line @next/next/no-img-element
           <img src={thumbnail} alt="Thumbnail preview" className="mt-2 h-24 rounded-sm border border-border bg-white object-contain" />
         )}
-        <button type="button" disabled={preview.status === "loading" || !cadUrl.trim()} onClick={() => void runPreview(true)} className={`${BTN_OUTLINE} mt-2 block`}>
-          Fetch from Onshape again
-        </button>
+        {kind === "cad" && (
+          <button type="button" disabled={preview.status === "loading" || !cadUrl.trim()} onClick={() => void runPreview(true)} className={`${BTN_OUTLINE} mt-2 block`}>
+            Fetch from Onshape again
+          </button>
+        )}
       </div>
 
       <div className="flex justify-end gap-2">
@@ -278,7 +322,18 @@ export default function EntryEditor({
           type="button"
           disabled={!canSubmit}
           onClick={() =>
-            onSubmit({ title, assemblyName, program, season, cadPlatform, tags: tagList, primaryCategory: effectivePrimary, thumbnail, cadUrl })
+            onSubmit({
+              kind,
+              title,
+              assemblyName,
+              program,
+              season,
+              cadPlatform,
+              tags: kind === "resource" ? [] : tagList,
+              primaryCategory: kind === "resource" ? "" : effectivePrimary,
+              thumbnail,
+              cadUrl,
+            })
           }
           className={BTN_SOLID}
         >

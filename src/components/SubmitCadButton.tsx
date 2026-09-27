@@ -27,7 +27,7 @@ export default function SubmitCadButton() {
         onClick={() => setOpen(true)}
         className="inline-flex shrink-0 items-center gap-2 rounded-sm border border-accent/40 bg-surface px-3 py-2 text-sm font-medium text-accent hover:border-accent hover:bg-accent-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       >
-        Submit a CAD File
+        Submit to Library
       </button>
 
       {open && (
@@ -46,7 +46,7 @@ export default function SubmitCadButton() {
           >
             <div className="flex items-center justify-between border-b border-border px-5 py-4">
               <span id="submit-cad-title" className="text-sm font-semibold text-text">
-                Submit a CAD File
+                Submit to the Library
               </span>
               <button
                 type="button"

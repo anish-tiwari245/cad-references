@@ -53,6 +53,7 @@ export const MECHANISM_TAGS: string[] = [
   "Differential / PTO",
   "Vector Wheel",
   "Number Plate / Misc",
+  "Misc",
   "Other",
 ];
 

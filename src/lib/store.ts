@@ -88,6 +88,15 @@ export async function addEntry(entry: CadEntry): Promise<void> {
   await tx.exec();
 }
 
+export async function getEntry(id: string): Promise<CadEntry | null> {
+  return (await requireRedis().hget<CadEntry>(ENTRIES_KEY, id)) ?? null;
+}
+
+// Replaces an entry in place; its position in the list is unchanged.
+export async function updateEntry(entry: CadEntry): Promise<void> {
+  await requireRedis().hset(ENTRIES_KEY, { [entry.id]: entry });
+}
+
 export async function entryExists(id: string): Promise<boolean> {
   return (await requireRedis().hexists(ENTRIES_KEY, id)) === 1;
 }

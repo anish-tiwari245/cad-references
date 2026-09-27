@@ -33,6 +33,7 @@ export const ALL_TAGS = [
   "Differential / PTO",
   "Vector Wheel",
   "Number Plate / Misc",
+  "Misc",
   "Other",
 ];
 
