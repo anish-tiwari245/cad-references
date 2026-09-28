@@ -226,32 +226,76 @@ function LibraryRow({ entry, busy, send }: { entry: CadEntry; busy: boolean; sen
   );
 }
 
-const PAGE_SIZE = 60;
-
 // Ids for files the admin adds by hand; must match ADD_ID_RE on the server.
 function newDraftId(): string {
   return `add-${Math.random().toString(36).slice(2, 10)}${Date.now().toString(36)}`;
 }
 
-export default function AdminPanel({ pending, entries }: { pending: PendingSubmission[]; entries: CadEntry[] }) {
-  const router = useRouter();
-  const [notice, setNotice] = useState<Notice>(null);
-  const [busy, setBusy] = useState(false);
+function LibrarySection({
+  id,
+  title,
+  entries,
+  placeholder,
+  emptyText,
+  busy,
+  send,
+}: {
+  id: string;
+  title: string;
+  entries: CadEntry[];
+  placeholder: string;
+  emptyText: string;
+  busy: boolean;
+  send: Send;
+}) {
   const [query, setQuery] = useState("");
-  const [adding, setAdding] = useState(false);
-  const [draftId, setDraftId] = useState("");
-
-  const byUrl = useMemo(() => {
-    const map = new Map<string, CadEntry>();
-    for (const e of entries) if (e.url) map.set(normalizeUrl(e.url), e);
-    return map;
-  }, [entries]);
 
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return entries;
     return entries.filter((e) => `${e.title} ${e.assemblyName} ${e.url ?? ""}`.toLowerCase().includes(q));
   }, [entries, query]);
+
+  return (
+    <section id={id} className="mt-10 scroll-mt-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h2 className="text-sm font-semibold uppercase tracking-wide text-text-muted">
+          {title} ({entries.length})
+        </h2>
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={placeholder}
+          aria-label={`Search ${title.toLowerCase()}`}
+          className={`${INPUT} mt-0 max-w-xs`}
+        />
+      </div>
+      <ul className="mt-3 max-h-[70vh] overflow-y-auto rounded-md border border-border bg-surface px-4">
+        {matches.map((e) => (
+          <LibraryRow key={e.id} entry={e} busy={busy} send={send} />
+        ))}
+        {matches.length === 0 && <li className="py-6 text-center text-sm text-text-muted">{emptyText}</li>}
+      </ul>
+    </section>
+  );
+}
+
+export default function AdminPanel({ pending, entries }: { pending: PendingSubmission[]; entries: CadEntry[] }) {
+  const router = useRouter();
+  const [notice, setNotice] = useState<Notice>(null);
+  const [busy, setBusy] = useState(false);
+  const [adding, setAdding] = useState(false);
+  const [draftId, setDraftId] = useState("");
+
+  const cadEntries = useMemo(() => entries.filter((e) => e.kind !== "resource"), [entries]);
+  const resourceEntries = useMemo(() => entries.filter((e) => e.kind === "resource"), [entries]);
+
+  const byUrl = useMemo(() => {
+    const map = new Map<string, CadEntry>();
+    for (const e of entries) if (e.url) map.set(normalizeUrl(e.url), e);
+    return map;
+  }, [entries]);
 
   const send: Send = async (path, body, successText) => {
     setBusy(true);
@@ -314,8 +358,11 @@ export default function AdminPanel({ pending, entries }: { pending: PendingSubmi
         <a href="#add" className="text-accent underline-offset-2 hover:underline">
           Add a file
         </a>
-        <a href="#library" className="text-accent underline-offset-2 hover:underline">
-          Library, edit and delete ({entries.length})
+        <a href="#cad-library" className="text-accent underline-offset-2 hover:underline">
+          CAD files ({cadEntries.length})
+        </a>
+        <a href="#resources" className="text-accent underline-offset-2 hover:underline">
+          Resources ({resourceEntries.length})
         </a>
       </nav>
 
@@ -383,30 +430,25 @@ export default function AdminPanel({ pending, entries }: { pending: PendingSubmi
         )}
       </section>
 
-      <section id="library" className="mt-10 scroll-mt-4">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-text-muted">Library ({entries.length})</h2>
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search to find a file to edit or delete…"
-            aria-label="Search library"
-            className={`${INPUT} mt-0 max-w-xs`}
-          />
-        </div>
-        <ul className="mt-3 rounded-md border border-border bg-surface px-4">
-          {matches.slice(0, PAGE_SIZE).map((e) => (
-            <LibraryRow key={e.id} entry={e} busy={busy} send={send} />
-          ))}
-          {matches.length === 0 && <li className="py-6 text-center text-sm text-text-muted">No entries match.</li>}
-        </ul>
-        {matches.length > PAGE_SIZE && (
-          <p className="mt-2 text-xs text-text-muted">
-            Showing {PAGE_SIZE} of {matches.length}. Search to narrow it down.
-          </p>
-        )}
-      </section>
+      <LibrarySection
+        id="cad-library"
+        title="CAD files"
+        entries={cadEntries}
+        placeholder="Search to find a file to edit or delete…"
+        emptyText="No CAD files match."
+        busy={busy}
+        send={send}
+      />
+
+      <LibrarySection
+        id="resources"
+        title="Resources"
+        entries={resourceEntries}
+        placeholder="Search resources…"
+        emptyText="No resources match."
+        busy={busy}
+        send={send}
+      />
     </div>
   );
 }
