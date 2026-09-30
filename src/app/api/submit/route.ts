@@ -32,7 +32,8 @@ export async function POST(request: Request) {
   const title = cleanOptionalText(body.title, 120);
   const cadUrl = cleanHttpUrl(body.cadUrl);
   const program = cleanProgram(body.program);
-  const season = program ? cleanSeason(program, body.season) : null;
+  // Resources always send "Unspecified / Offseason" since the field isn't shown to them.
+  const season = program ? cleanSeason(program, body.season, kind === "resource") : null;
   // Resources (websites, doc galleries, ...) aren't a mechanism, so no tags are required.
   const tags = kind === "resource" ? [] : cleanTags(body.tags);
   const cadPlatform = cleanPlatform(body.cadPlatform);

@@ -46,7 +46,7 @@ export default function SubmitCadButton() {
           >
             <div className="flex items-center justify-between border-b border-border px-5 py-4">
               <span id="submit-cad-title" className="text-sm font-semibold text-text">
-                Submit to the Library
+                Submit to Library
               </span>
               <button
                 type="button"

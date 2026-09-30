@@ -2,7 +2,12 @@
 
 import { useState, type FormEvent } from "react";
 import ChipGroup from "./ChipGroup";
-import { SEASON_ORDER, formatSeasonLabel, getFrcSeasonYears, MECHANISM_TAGS, CAD_PLATFORMS } from "@/lib/constants";
+import { SEASON_ORDER, UNSPECIFIED_SEASON, formatSeasonLabel, getFrcSeasonYears, MECHANISM_TAGS, CAD_PLATFORMS } from "@/lib/constants";
+
+// Resources (websites, doc galleries, ...) don't have a season or a CAD
+// platform, so the form skips those fields and sends these fixed values.
+const RESOURCE_SEASON = UNSPECIFIED_SEASON;
+const RESOURCE_PLATFORM = "Other";
 
 // Submissions only go back as far as Skystone (2019-2020), newest first.
 const FTC_SEASON_OPTIONS = SEASON_ORDER.slice(SEASON_ORDER.indexOf("Skystone")).reverse();
@@ -65,13 +70,15 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
     }
 
     if (!program) next.program = "Select a program.";
-    if (!season) next.season = "Select a season.";
-    if (kind === "cad" && tags.size === 0) next.tags = "Select at least one mechanism tag.";
-    if (!cadPlatform) next.cadPlatform = "Select a platform.";
+    if (kind === "cad") {
+      if (!season) next.season = "Select a season.";
+      if (tags.size === 0) next.tags = "Select at least one mechanism tag.";
+      if (!cadPlatform) next.cadPlatform = "Select a platform.";
 
-    const email = contactEmail.trim();
-    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      next.contactEmail = "Enter a valid email address.";
+      const email = contactEmail.trim();
+      if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        next.contactEmail = "Enter a valid email address.";
+      }
     }
 
     return next;
@@ -125,31 +132,41 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
 
     const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
     const tagList = [...tags];
+    // Resources don't collect these fields, so use fixed values instead of
+    // whatever's left in state from before a Resource/CAD file switch.
+    const effectiveSeason = kind === "resource" ? RESOURCE_SEASON : season;
+    const effectiveCadPlatform = kind === "resource" ? RESOURCE_PLATFORM : cadPlatform;
+    const effectiveTeamName = kind === "resource" ? "" : teamName.trim();
+    const effectiveContactEmail = kind === "resource" ? "" : contactEmail.trim();
 
     const emailPayload: Record<string, string> = {
       Type: kind === "resource" ? "Resource" : "CAD File",
       Title: title.trim(),
       Link: cadUrl.trim(),
       Program: program,
-      Season: season,
-      ...(kind === "cad" ? { "Mechanism Tags": tagList.join(", ") } : {}),
-      Platform: cadPlatform,
-      "Team Name": teamName.trim() || "(not provided)",
-      "Contact Email": contactEmail.trim() || "(not provided)",
+      ...(kind === "cad"
+        ? {
+            Season: effectiveSeason,
+            "Mechanism Tags": tagList.join(", "),
+            Platform: effectiveCadPlatform,
+            "Team Name": effectiveTeamName || "(not provided)",
+            "Contact Email": effectiveContactEmail || "(not provided)",
+          }
+        : {}),
       _subject: `New ${kind === "resource" ? "resource" : "CAD"} submission: ${title.trim()}`,
     };
-    if (contactEmail.trim()) emailPayload._replyto = contactEmail.trim();
+    if (effectiveContactEmail) emailPayload._replyto = effectiveContactEmail;
 
     const queuePayload = {
       kind,
       title: title.trim(),
       cadUrl: cadUrl.trim(),
       program,
-      season,
+      season: effectiveSeason,
       tags: tagList,
-      cadPlatform,
-      teamName: teamName.trim() || null,
-      contactEmail: contactEmail.trim() || null,
+      cadPlatform: effectiveCadPlatform,
+      teamName: effectiveTeamName || null,
+      contactEmail: effectiveContactEmail || null,
     };
 
     if (!endpoint) {
@@ -336,106 +353,108 @@ export default function SubmitCadForm({ onClose }: { onClose: () => void }) {
         {errors.program && <p className="mt-1 text-xs text-red-500">{errors.program}</p>}
       </fieldset>
 
-      <div>
-        <label htmlFor="submit-season" className={FIELD_LABEL}>
-          Season *
-        </label>
-        <select
-          id="submit-season"
-          value={season}
-          onChange={(e) => {
-            setSeason(e.target.value);
-            if (attempted) setErrors(validate());
-          }}
-          className={`${INPUT} ${fieldBorder(!!errors.season)}`}
-          aria-invalid={!!errors.season}
-        >
-          <option value="" disabled>
-            {program === "FRC" ? "Select a build year" : "Select a season"}
-          </option>
-          {seasonOptions.map((s) => (
-            <option key={s} value={s}>
-              {program === "FRC" ? s : formatSeasonLabel(s)}
-            </option>
-          ))}
-        </select>
-        {errors.season && <p className="mt-1 text-xs text-red-500">{errors.season}</p>}
-      </div>
-
       {kind === "cad" && (
-        <div>
-          <ChipGroup
-            label="Category tags *"
-            options={MECHANISM_TAGS}
-            selected={tags}
-            onToggle={(v) => {
-              setTags((prev) => toggleInSet(prev, v));
-              if (attempted) setErrors(validate());
-            }}
-          />
-          {errors.tags && <p className="mt-1 text-xs text-red-500">{errors.tags}</p>}
-        </div>
+        <>
+          <div>
+            <label htmlFor="submit-season" className={FIELD_LABEL}>
+              Season *
+            </label>
+            <select
+              id="submit-season"
+              value={season}
+              onChange={(e) => {
+                setSeason(e.target.value);
+                if (attempted) setErrors(validate());
+              }}
+              className={`${INPUT} ${fieldBorder(!!errors.season)}`}
+              aria-invalid={!!errors.season}
+            >
+              <option value="" disabled>
+                {program === "FRC" ? "Select a build year" : "Select a season"}
+              </option>
+              {seasonOptions.map((s) => (
+                <option key={s} value={s}>
+                  {program === "FRC" ? s : formatSeasonLabel(s)}
+                </option>
+              ))}
+            </select>
+            {errors.season && <p className="mt-1 text-xs text-red-500">{errors.season}</p>}
+          </div>
+
+          <div>
+            <ChipGroup
+              label="Category tags *"
+              options={MECHANISM_TAGS}
+              selected={tags}
+              onToggle={(v) => {
+                setTags((prev) => toggleInSet(prev, v));
+                if (attempted) setErrors(validate());
+              }}
+            />
+            {errors.tags && <p className="mt-1 text-xs text-red-500">{errors.tags}</p>}
+          </div>
+
+          <div>
+            <label htmlFor="cadPlatform" className={FIELD_LABEL}>
+              Platform *
+            </label>
+            <select
+              id="cadPlatform"
+              value={cadPlatform}
+              onChange={(e) => {
+                setCadPlatform(e.target.value);
+                if (attempted) setErrors(validate());
+              }}
+              className={`${INPUT} ${fieldBorder(!!errors.cadPlatform)}`}
+              aria-invalid={!!errors.cadPlatform}
+            >
+              <option value="" disabled>
+                Select a platform
+              </option>
+              {CAD_PLATFORMS.map((p) => (
+                <option key={p} value={p}>
+                  {p}
+                </option>
+              ))}
+            </select>
+            {errors.cadPlatform && <p className="mt-1 text-xs text-red-500">{errors.cadPlatform}</p>}
+          </div>
+
+          <div className="grid gap-5 sm:grid-cols-2">
+            <div>
+              <label htmlFor="teamName" className={FIELD_LABEL}>
+                Team name / number
+              </label>
+              <input
+                id="teamName"
+                type="text"
+                placeholder="e.g. 31071 Stratos"
+                value={teamName}
+                onChange={(e) => setTeamName(e.target.value)}
+                className={`${INPUT} ${fieldBorder(false)}`}
+              />
+            </div>
+            <div>
+              <label htmlFor="contactEmail" className={FIELD_LABEL}>
+                Contact email
+              </label>
+              <input
+                id="contactEmail"
+                type="email"
+                placeholder="optional"
+                value={contactEmail}
+                onChange={(e) => {
+                  setContactEmail(e.target.value);
+                  if (attempted) setErrors(validate());
+                }}
+                className={`${INPUT} ${fieldBorder(!!errors.contactEmail)}`}
+                aria-invalid={!!errors.contactEmail}
+              />
+              {errors.contactEmail && <p className="mt-1 text-xs text-red-500">{errors.contactEmail}</p>}
+            </div>
+          </div>
+        </>
       )}
-
-      <div>
-        <label htmlFor="cadPlatform" className={FIELD_LABEL}>
-          Platform *
-        </label>
-        <select
-          id="cadPlatform"
-          value={cadPlatform}
-          onChange={(e) => {
-            setCadPlatform(e.target.value);
-            if (attempted) setErrors(validate());
-          }}
-          className={`${INPUT} ${fieldBorder(!!errors.cadPlatform)}`}
-          aria-invalid={!!errors.cadPlatform}
-        >
-          <option value="" disabled>
-            Select a platform
-          </option>
-          {CAD_PLATFORMS.map((p) => (
-            <option key={p} value={p}>
-              {p}
-            </option>
-          ))}
-        </select>
-        {errors.cadPlatform && <p className="mt-1 text-xs text-red-500">{errors.cadPlatform}</p>}
-      </div>
-
-      <div className="grid gap-5 sm:grid-cols-2">
-        <div>
-          <label htmlFor="teamName" className={FIELD_LABEL}>
-            Team name / number
-          </label>
-          <input
-            id="teamName"
-            type="text"
-            placeholder="e.g. 31071 Stratos"
-            value={teamName}
-            onChange={(e) => setTeamName(e.target.value)}
-            className={`${INPUT} ${fieldBorder(false)}`}
-          />
-        </div>
-        <div>
-          <label htmlFor="contactEmail" className={FIELD_LABEL}>
-            Contact email
-          </label>
-          <input
-            id="contactEmail"
-            type="email"
-            placeholder="optional"
-            value={contactEmail}
-            onChange={(e) => {
-              setContactEmail(e.target.value);
-              if (attempted) setErrors(validate());
-            }}
-            className={`${INPUT} ${fieldBorder(!!errors.contactEmail)}`}
-            aria-invalid={!!errors.contactEmail}
-          />
-          {errors.contactEmail && <p className="mt-1 text-xs text-red-500">{errors.contactEmail}</p>}
-        </div>
-      </div>
 
       {status === "error" && statusMessage && (
         <p className="rounded-sm border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700">{statusMessage}</p>
