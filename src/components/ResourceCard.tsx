@@ -1,13 +1,17 @@
 import type { CadEntry } from "@/lib/types";
+import FavoriteButton from "./FavoriteButton";
 
 export default function ResourceCard({ entry }: { entry: CadEntry }) {
   return (
     <article className="flex flex-col justify-between gap-3 rounded-md border border-border bg-surface p-4 transition-shadow hover:shadow-[0_2px_12px_rgba(32,29,26,0.08)]">
-      <div>
-        <h3 className="text-sm font-semibold leading-snug text-text">{entry.title}</h3>
-        {entry.assemblyName && entry.assemblyName !== entry.title && (
-          <p className="mt-0.5 text-xs text-text-muted">{entry.assemblyName}</p>
-        )}
+      <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0">
+          <h3 className="text-sm font-semibold leading-snug text-text">{entry.title}</h3>
+          {entry.assemblyName && entry.assemblyName !== entry.title && (
+            <p className="mt-0.5 text-xs text-text-muted">{entry.assemblyName}</p>
+          )}
+        </div>
+        <FavoriteButton id={entry.id} className="-mr-1.5 -mt-1 shrink-0" />
       </div>
 
       <div className="flex items-center justify-between gap-3">

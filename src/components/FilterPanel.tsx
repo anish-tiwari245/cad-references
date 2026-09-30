@@ -16,6 +16,9 @@ export interface FilterPanelProps {
   platformOptions: string[];
   selectedPlatforms: Set<string>;
   onTogglePlatform: (value: string) => void;
+  favoritesOnly: boolean;
+  onToggleFavoritesOnly: () => void;
+  favoritedCount: number;
   onClearAll: () => void;
   activeFilterCount: number;
 }
@@ -35,6 +38,9 @@ export default function FilterPanel({
   platformOptions,
   selectedPlatforms,
   onTogglePlatform,
+  favoritesOnly,
+  onToggleFavoritesOnly,
+  favoritedCount,
   onClearAll,
   activeFilterCount,
 }: FilterPanelProps) {
@@ -52,6 +58,24 @@ export default function FilterPanel({
           </button>
         )}
       </div>
+
+      <button
+        type="button"
+        aria-pressed={favoritesOnly}
+        disabled={favoritedCount === 0 && !favoritesOnly}
+        onClick={onToggleFavoritesOnly}
+        className={
+          "flex items-center justify-center gap-1.5 rounded-sm border px-3 py-2 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-50 " +
+          (favoritesOnly
+            ? "border-accent bg-accent text-white"
+            : "border-border-strong bg-surface text-text hover:border-accent/50 hover:text-accent")
+        }
+      >
+        <svg width="14" height="14" viewBox="0 0 20 20" fill={favoritesOnly ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round">
+          <path d="M10 2.5 12.3 7.4 17.6 8 13.8 11.7 14.9 17 10 14.6 5.1 17 6.2 11.7 2.4 8 7.7 7.4Z" />
+        </svg>
+        Favorites only {favoritedCount > 0 && `(${favoritedCount})`}
+      </button>
 
       <div>
         <label htmlFor="search" className="text-xs font-semibold uppercase tracking-wide text-text-muted">

@@ -18,7 +18,7 @@ const siteUrl =
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : "http://localhost:3000");
 
-const title = "FTC CAD Library";
+const title = "FTC CAD Base";
 const description = "A searchable library of FTC/FRC CAD files shared by FIRST teams.";
 const ogImage = { url: "/og-image.png", width: 1200, height: 630, alt: title };
 

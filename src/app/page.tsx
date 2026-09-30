@@ -34,7 +34,7 @@ export default async function Home() {
       <header className="border-b border-border bg-surface">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 sm:px-6 md:flex-row md:items-end md:justify-between lg:px-8">
           <div className="flex items-center gap-3">
-            <h1 className="text-3xl font-semibold tracking-tight text-text">FTC CAD Library</h1>
+            <h1 className="text-3xl font-semibold tracking-tight text-text">FTC CAD Base</h1>
             <ThemeToggle />
           </div>
           <SubmitCadButton />

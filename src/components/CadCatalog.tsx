@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import type { CadEntry } from "@/lib/types";
 import FilterPanel from "./FilterPanel";
 import CadGrid from "./CadGrid";
+import { useFavorites } from "@/lib/useFavorites";
 
 function toggleInSet(set: Set<string>, value: string): Set<string> {
   const next = new Set(set);
@@ -30,11 +31,14 @@ export default function CadCatalog({
   const [selectedSeason, setSelectedSeason] = useState("all");
   const [selectedMechanisms, setSelectedMechanisms] = useState<Set<string>>(new Set());
   const [selectedPlatforms, setSelectedPlatforms] = useState<Set<string>>(new Set());
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const { favorites } = useFavorites();
 
   const filtered = useMemo(() => {
     const query = search.trim().toLowerCase();
     return entries.filter((entry) => {
+      if (favoritesOnly && !favorites.has(entry.id)) return false;
       if (query) {
         const haystack = `${entry.title} ${entry.assemblyName} ${entry.tags.join(" ")}`.toLowerCase();
         if (!haystack.includes(query)) return false;
@@ -45,14 +49,17 @@ export default function CadCatalog({
       if (selectedPlatforms.size > 0 && !selectedPlatforms.has(entry.cadPlatform)) return false;
       return true;
     });
-  }, [entries, search, selectedPrograms, selectedSeason, selectedMechanisms, selectedPlatforms]);
+  }, [entries, search, selectedPrograms, selectedSeason, selectedMechanisms, selectedPlatforms, favoritesOnly, favorites]);
+
+  const favoritedCount = useMemo(() => entries.filter((e) => favorites.has(e.id)).length, [entries, favorites]);
 
   const activeFilterCount =
     selectedPrograms.size +
     selectedMechanisms.size +
     selectedPlatforms.size +
     (selectedSeason !== "all" ? 1 : 0) +
-    (search.trim() ? 1 : 0);
+    (search.trim() ? 1 : 0) +
+    (favoritesOnly ? 1 : 0);
 
   function clearAll() {
     setSearch("");
@@ -60,6 +67,7 @@ export default function CadCatalog({
     setSelectedSeason("all");
     setSelectedMechanisms(new Set());
     setSelectedPlatforms(new Set());
+    setFavoritesOnly(false);
   }
 
   const filterPanelProps = {
@@ -77,6 +85,9 @@ export default function CadCatalog({
     platformOptions,
     selectedPlatforms,
     onTogglePlatform: (v: string) => setSelectedPlatforms((prev) => toggleInSet(prev, v)),
+    favoritesOnly,
+    onToggleFavoritesOnly: () => setFavoritesOnly((prev) => !prev),
+    favoritedCount,
     onClearAll: clearAll,
     activeFilterCount,
   };

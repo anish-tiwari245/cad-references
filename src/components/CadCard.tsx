@@ -1,5 +1,6 @@
 import type { CadEntry } from "@/lib/types";
 import { formatSeasonLabel } from "@/lib/constants";
+import FavoriteButton from "./FavoriteButton";
 
 function Badge({
   children,
@@ -45,6 +46,7 @@ export default function CadCard({ entry }: { entry: CadEntry }) {
             No preview available
           </div>
         )}
+        <FavoriteButton id={entry.id} className="absolute right-1.5 top-1.5 bg-surface/90 shadow-sm backdrop-blur-sm" />
       </div>
 
       <div className="flex flex-1 flex-col gap-3 p-4">
