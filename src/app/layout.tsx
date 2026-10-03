@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,29 +10,24 @@ const inter = Inter({
   display: "swap",
 });
 
-// Set NEXT_PUBLIC_SITE_URL to the deployed origin (e.g. https://example.com) so
-// social preview image URLs resolve to absolute URLs. Vercel's production URL
-// is picked up automatically; local dev falls back to localhost.
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "http://localhost:3000");
-
 const title = "FTC CAD Base";
 const description = "A searchable library of FTC/FRC CAD files shared by FIRST teams.";
 const ogImage = { url: "/og-image.png", width: 1200, height: 630, alt: title };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title,
   description,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: "/",
     siteName: title,
     title,
     description,
+    locale: "en_US",
     images: [ogImage],
   },
   twitter: {
