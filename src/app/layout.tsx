@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { SITE_URL } from "@/lib/site";
+import { SITE_TITLE, buildMetadata } from "@/lib/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,32 +11,16 @@ const inter = Inter({
   display: "swap",
 });
 
-const title = "FTC CAD Base";
-const description = "A searchable library of FTC/FRC CAD files shared by FIRST teams.";
-const ogImage = { url: "/og-image.png", width: 1200, height: 630, alt: title };
-
+// Root fallback only: every real page (home, category, season, admin) sets
+// its own metadata, since Next's metadata merging replaces openGraph/twitter
+// wholesale rather than merging fields (see src/lib/seo.ts).
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title,
-  description,
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    type: "website",
-    url: "/",
-    siteName: title,
-    title,
-    description,
-    locale: "en_US",
-    images: [ogImage],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title,
-    description,
-    images: [ogImage.url],
-  },
+  ...buildMetadata({
+    title: SITE_TITLE,
+    description: "A searchable library of FTC/FRC CAD files shared by FIRST teams.",
+    path: "/",
+  }),
 };
 
 export default function RootLayout({
