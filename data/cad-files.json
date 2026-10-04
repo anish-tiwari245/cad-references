@@ -1,5 +1,71 @@
 [
   {
+    "id": "sub-mupmbin5-689ydi",
+    "kind": "cad",
+    "title": "ROBOT V2 |TALOS EDUROBOTS #25070|",
+    "assemblyName": "ROBOT V2 |TALOS EDUROBOTS #25070|",
+    "url": "https://cad.onshape.com/documents/61ec43f7ba5c46386ea116b5/w/23de47e4f9ad796273029a01/e/c4b82a9c30b31170a93e19a2",
+    "sourceDomain": "cad.onshape.com",
+    "thumbnail": "/api/thumb/sub-mupmbin5-689ydi?v=1790885958988",
+    "program": "FTC",
+    "season": "Decode",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Unspecified)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Number Plate / Misc"
+    ],
+    "cadPlatform": "Onshape",
+    "needsReview": false,
+    "reviewReason": null
+  },
+  {
+    "id": "sub-mupmdni9-cowme7",
+    "kind": "cad",
+    "title": "Gripper biobuzz",
+    "assemblyName": "Gripper biobuzz",
+    "url": "https://cad.onshape.com/documents/af616fdc024a0fb50dfce7ca/w/84d079814acf293047151d07/e/25abd44cf4d141993cd9edb4",
+    "sourceDomain": "cad.onshape.com",
+    "thumbnail": "/api/thumb/sub-mupmdni9-cowme7?v=1790885887832",
+    "program": "FTC",
+    "season": "Biobuzz",
+    "primaryCategory": "Claw / Gripper",
+    "tags": [
+      "Claw / Gripper"
+    ],
+    "cadPlatform": "Onshape",
+    "needsReview": false,
+    "reviewReason": null
+  },
+  {
+    "id": "sub-munr7dmh-clzdus",
+    "kind": "cad",
+    "title": "18365 CC Chain Reaction Submission",
+    "assemblyName": "18365 CC Chain Reaction Submission",
+    "url": "https://cad.onshape.com/documents/70114baf602d95a618c3fcb7/w/3a762e3e89f961427c896f8a/e/65fc20eda99cec99a1f0bee2",
+    "sourceDomain": "cad.onshape.com",
+    "thumbnail": "/api/thumb/sub-munr7dmh-clzdus?v=1790801466829",
+    "program": "FTC",
+    "season": "Decode",
+    "primaryCategory": "Full Robot",
+    "tags": [
+      "Full Robot",
+      "Drivetrain (Unspecified)",
+      "Intake",
+      "Linear Slides / Extension",
+      "Turret",
+      "Shooter",
+      "Misc"
+    ],
+    "cadPlatform": "Onshape",
+    "needsReview": false,
+    "reviewReason": null
+  },
+  {
     "id": "d6f608a4-3040-4570-b2f8-d9440996c2fd",
     "title": "VCC #5",
     "assemblyName": "Robot",
@@ -11,7 +77,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter"
@@ -33,7 +99,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Number Plate / Misc"
@@ -55,7 +121,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -73,9 +139,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/eaa8b519-718c-40e0-b05c-34dc93f6076f/da681132-454a-469a-a680-63b766d5f99b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -91,9 +157,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f6351bbe-0a15-427a-ab05-3da2a96e8d07/48bb5176-85b3-4766-837f-ec738935afaa.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Fusion 360",
     "needsReview": false,
@@ -112,7 +178,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -132,9 +198,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/caf80faa-97fe-4486-97e2-54896cdf106d/942f434e-3904-4a23-b93a-196ddbecded0.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Linear Slides / Extension",
       "Turret"
     ],
@@ -155,7 +221,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -179,7 +245,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -201,7 +267,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper",
       "Linear Slides / Extension"
     ],
@@ -222,7 +288,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -240,10 +306,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/54af68f6-0419-46d4-982e-6881ad219043/267b2c2f-082e-433e-9e90-5f5c1ca128b7.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -264,7 +330,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper",
       "Linear Slides / Extension"
     ],
@@ -300,9 +366,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/858aab62-23cc-4359-b470-358a50ffa4eb/aa3bd2e5-4501-4515-a5d8-c069bdff2358.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -341,7 +407,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -378,7 +444,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -397,9 +463,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/dbf64cba-731f-4c8b-90bb-d87e882e11b1/dec58f9f-e9f1-44c3-a692-fd00ce9d326a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -420,7 +486,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -441,7 +507,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
@@ -451,6 +517,7 @@
   },
   {
     "id": "d6d4d574-2368-440c-b992-209b418c2ac3",
+    "kind": "cad",
     "title": "QR-23-A-0000.STEP",
     "assemblyName": "QR-23-A-0000",
     "url": "https://cad.onshape.com/documents/adf30002dbdea35579ba2d6c/w/b75e981b1f57d5d7fa8ddb83/e/61c6b1ba59bad5cf1d0db96b",
@@ -458,14 +525,14 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/d6d4d574-2368-440c-b992-209b418c2ac3/96b07def-45fa-411e-b1f1-44c858d79655.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Misc",
+    "primaryCategory": "Full Robot",
     "tags": [
-      "Misc"
+      "Full Robot",
+      "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
-    "reviewReason": null,
-    "kind": "cad"
+    "reviewReason": null
   },
   {
     "id": "6206c9b8-e81c-426b-8dcc-5b60d5e236a3",
@@ -478,7 +545,7 @@
     "season": "Skystone",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Claw / Gripper"
     ],
@@ -499,7 +566,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -520,7 +587,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -559,7 +626,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -578,9 +645,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/41fe2a81-ad8b-49b7-956b-9142bc98492d/e8562312-ef79-4593-b409-98ba69dfe25f.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -640,9 +707,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fa1c87ef-c4bd-438d-87c4-78dc7e1dd296/6133bb89-ddf8-4814-bed7-4b44665baab6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -687,7 +754,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Turret",
@@ -710,7 +777,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -751,7 +818,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -794,7 +861,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -816,7 +883,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -838,7 +905,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -861,7 +928,7 @@
     "primaryCategory": "Linear Slides / Extension",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -883,7 +950,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Linear Slides / Extension",
       "Differential / PTO"
     ],
@@ -904,7 +971,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -999,9 +1066,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a4386127-4e1d-4483-98d1-b7bae3cadbf4/94fd945a-50d2-4143-965a-077234e2535b.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -1042,7 +1109,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension"
     ],
@@ -1085,7 +1152,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Differential / PTO",
@@ -1126,7 +1193,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -1148,7 +1215,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake"
     ],
     "cadPlatform": "Onshape",
@@ -1168,7 +1235,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -1192,7 +1259,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -1321,7 +1388,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Intake",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -1362,7 +1429,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -1385,7 +1452,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Turret",
       "Differential / PTO"
@@ -1443,7 +1510,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -1466,7 +1533,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension",
@@ -1489,7 +1556,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper"
     ],
     "cadPlatform": "Onshape",
@@ -1509,7 +1576,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Claw / Gripper",
       "Linear Slides / Extension"
@@ -1549,7 +1616,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Claw / Gripper",
       "Linear Slides / Extension",
       "Differential / PTO"
@@ -1579,6 +1646,7 @@
   },
   {
     "id": "969965b1-cc0f-47d1-bda4-4845a7d9d6fc",
+    "kind": "cad",
     "title": "FTC 23511 - Decode - Robot CAD",
     "assemblyName": "Full",
     "url": "https://cad.onshape.com/documents/c021b03986672773c2100272/w/74f0a8f10b4c93fb8fe556c1/e/b8bffd930c2a2d8248794936",
@@ -1589,7 +1657,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Swerve Drive",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -1597,8 +1665,7 @@
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
-    "reviewReason": null,
-    "kind": "cad"
+    "reviewReason": null
   },
   {
     "id": "64fff31b-8499-4ace-80f1-7728e5adb429",
@@ -1631,7 +1698,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake"
     ],
     "cadPlatform": "Onshape",
@@ -1672,7 +1739,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter"
@@ -1694,7 +1761,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1713,7 +1780,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter"
@@ -1753,7 +1820,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -1776,7 +1843,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -1800,7 +1867,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Turret"
     ],
     "cadPlatform": "Onshape",
@@ -1820,7 +1887,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -1844,7 +1911,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1863,7 +1930,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Turret"
     ],
     "cadPlatform": "Onshape",
@@ -1905,7 +1972,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Turret"
     ],
     "cadPlatform": "Onshape",
@@ -1925,35 +1992,11 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Shooter",
       "Number Plate / Misc"
-    ],
-    "cadPlatform": "Onshape",
-    "needsReview": false,
-    "reviewReason": null,
-    "kind": "cad"
-  },
-  {
-    "id": "1f472cd2-dd46-4f57-a343-b2a8df74ab9b",
-    "title": "FTC 23511 - Decode - Robot CAD",
-    "assemblyName": "Full",
-    "url": "https://cad.onshape.com/documents/c021b03986672773c2100272/w/0193b54d3d77f8d39bcaa2b9/e/b8bffd930c2a2d8248794936",
-    "sourceDomain": "cad.onshape.com",
-    "thumbnail": "/api/thumb/1f472cd2-dd46-4f57-a343-b2a8df74ab9b?v=1790387684515",
-    "program": "FTC",
-    "season": "Decode",
-    "primaryCategory": "Full Robot",
-    "tags": [
-      "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
-      "Intake",
-      "Linear Slides / Extension",
-      "Turret",
-      "Shooter",
-      "Vector Wheel"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -1972,7 +2015,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -1995,7 +2038,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -2016,9 +2059,9 @@
     "thumbnail": "/api/thumb/0e518c25-c4a0-4041-b4ac-47195e1b9ba3?v=1790387687105",
     "program": "FTC",
     "season": "Decode",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -2096,7 +2139,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -2119,7 +2162,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -2178,7 +2221,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret"
     ],
@@ -2199,7 +2242,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -2242,7 +2285,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Shooter",
       "Number Plate / Misc"
@@ -2282,7 +2325,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Turret",
       "Shooter",
@@ -2302,9 +2345,9 @@
     "thumbnail": "/api/thumb/4d3eaacf-9306-4a20-b807-a0312c2c17ba?v=1790387697448",
     "program": "FTC",
     "season": "Decode",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -2364,7 +2407,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -2454,9 +2497,9 @@
     "thumbnail": "/api/thumb/4612bd9d-bb51-4d7e-ad61-78111dbc5819?v=1790387702931",
     "program": "FTC",
     "season": "Biobuzz",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2475,7 +2518,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Claw / Gripper",
@@ -2497,7 +2540,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -2514,9 +2557,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f76c271a-0074-408b-a631-762470b6ff1b/b38f25d8-f771-48b7-8e9d-ac45c07dfe34.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2532,9 +2575,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/f7879c2b-d07c-4947-ad9d-774554ce892d/4d694edd-8baf-4faa-a50f-8849f7f003e6.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2568,9 +2611,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0ff39895-d88c-4ad2-9529-537d4edffc1a/a0697639-bd65-4ec6-b976-c4ed16ec6319.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2586,9 +2629,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0384ad5e-0645-42c4-900a-d92ff329abb7/00e29364-807f-4725-ab7b-d226023089a9.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "GrabCAD",
     "needsReview": false,
@@ -2604,10 +2647,10 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/be2ba6dd-8f4e-45ca-9041-b7992d041c7f/45c64a1b-9682-4d5b-95d3-9a65525e9f13.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Mecanum)",
       "Linear Slides / Extension"
     ],
     "cadPlatform": "Onshape",
@@ -2624,9 +2667,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/7c76b472-6e34-47be-9a36-0605d5789008/9288e986-a87d-4336-8f98-4e5b3738774d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2642,9 +2685,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8b5f7339-efe6-4ef0-a4b0-bf13d1f5ef11/fdf5eeed-cca1-45a1-85cd-1d9c2d855c92.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Mecanum)",
       "Turret"
     ],
     "cadPlatform": "Onshape",
@@ -2661,9 +2704,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/8024e475-69b6-4a1e-8f90-27ab608fdd08/ea6996a3-1070-4471-976d-897c6a6a6853.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2679,9 +2722,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/870a1d3f-16cc-4a9e-b0d1-391fa52ef5b1/56c61632-11ae-44b6-8c25-0f2a4551e81e.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -2700,7 +2743,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Differential / PTO"
     ],
@@ -2720,7 +2763,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Differential / PTO",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Linear Slides / Extension",
       "Differential / PTO"
     ],
@@ -2740,7 +2783,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Differential / PTO",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
@@ -2757,9 +2800,9 @@
     "thumbnail": "/api/thumb/829761ad-4603-446d-8e67-54c9d9ca7d6f?v=1790387705591",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -2849,7 +2892,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -2866,9 +2909,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fa929ce3-211e-4f44-b936-bfe89c96d4c7/a0d84ab7-703d-4c22-a7dd-f88e7f287c0a.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake"
     ],
     "cadPlatform": "Onshape",
@@ -3085,7 +3128,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -3104,7 +3147,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Intake",
       "Linear Slides / Extension"
@@ -3143,7 +3186,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Swerve Drive",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive",
       "Differential / PTO"
     ],
@@ -3161,9 +3204,9 @@
     "thumbnail": "/api/thumb/675768a4-97fb-4d67-858a-fb2f134833fa?v=1790387707996",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Swerve Drive"
     ],
     "cadPlatform": "Onshape",
@@ -3616,7 +3659,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Other",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Other"
     ],
     "cadPlatform": "Onshape",
@@ -3633,9 +3676,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/754363ec-f7f2-4e53-8a3c-1e5be2cf5b1b/e300839f-6ef0-490b-aae6-88e427c2a34c.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3653,7 +3696,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Other",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Other"
     ],
     "cadPlatform": "Onshape",
@@ -3868,9 +3911,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/569f4dc3-c1ad-48f4-a2c4-1073ddc2355f/b429a093-f368-47b4-b238-d24290f80279.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Tank)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Tank)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3886,9 +3929,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/a27ba5f0-5bde-4489-8d44-98daa83157a4/393ab761-c364-47b7-aa89-b23177ff6670.png",
     "program": "FTC",
     "season": "Power Play",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -3904,9 +3947,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0cfaab8f-5307-445e-8b05-df6b63045d88/6b531171-bd34-441e-b14a-60e130d19c54.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3922,9 +3965,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/4023e72a-f718-411c-b6c5-ad70f35ee224/cd706424-a7f4-4b66-bc1e-3dbf765812b4.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3958,9 +4001,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/fe482da5-9312-46f7-b75b-350c4040f438/1e7d9be7-585f-49ca-bdb6-7e17dc9d244d.png",
     "program": "FTC",
     "season": "Freight Frenzy",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Unspecified)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Unspecified)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": true,
@@ -3976,9 +4019,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/9f35fed6-ff42-42fe-9bbb-bf2a64c545bb/c062811e-b438-4479-93a5-4eb712d98b7d.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -3994,9 +4037,9 @@
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/1f03e1b7-7559-403f-94e4-c0fc28b17c98/8e825bf7-fd77-4397-9daf-0c5925f71594.png",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -4012,9 +4055,9 @@
     "thumbnail": "/api/thumb/4859c4f3-0e74-45be-bfe7-034e21923f8e?v=1790387708751",
     "program": "FTC",
     "season": "Unspecified / Offseason",
-    "primaryCategory": "Drivetrain (Mecanum/Tank)",
+    "primaryCategory": "Drivetrain (Mecanum)",
     "tags": [
-      "Drivetrain (Mecanum/Tank)"
+      "Drivetrain (Mecanum)"
     ],
     "cadPlatform": "Onshape",
     "needsReview": false,
@@ -4195,7 +4238,7 @@
     "primaryCategory": "Full Robot",
     "tags": [
       "Full Robot",
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Intake",
       "Linear Slides / Extension",
       "Turret",
@@ -4217,7 +4260,7 @@
     "season": "Unspecified / Offseason",
     "primaryCategory": "Differential / PTO",
     "tags": [
-      "Drivetrain (Mecanum/Tank)",
+      "Drivetrain (Unspecified)",
       "Differential / PTO"
     ],
     "cadPlatform": "Onshape",
@@ -4795,9 +4838,10 @@
   },
   {
     "id": "0edbbe5c-8acb-4dec-9af3-699c62bdcad9",
-    "title": "Gallery Of Robot Designs - Game Manual 0",
-    "assemblyName": "Gallery Of Robot Designs - Game Manual 0",
-    "url": "https://gm0.org/en/latest/docs/appendix/gallery.html",
+    "kind": "resource",
+    "title": "Game Manual 0",
+    "assemblyName": "Game Manual 0",
+    "url": "https://gm0.org/en/latest/#",
     "sourceDomain": "gm0.org",
     "thumbnail": "https://pinboard-uploads-production.operacdn.com/images/6f30ddbc-c4d2-4fd9-8c35-9cba43a0b003/0edbbe5c-8acb-4dec-9af3-699c62bdcad9/4045e48f-f82b-4e01-a5bb-ac1740371934.png",
     "program": "FTC",
@@ -4806,8 +4850,7 @@
     "tags": [],
     "cadPlatform": "Other",
     "needsReview": false,
-    "reviewReason": null,
-    "kind": "resource"
+    "reviewReason": null
   },
   {
     "id": "466c0f42-cbbb-4b48-b04a-8d638c6dd074",

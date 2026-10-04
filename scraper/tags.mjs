@@ -14,16 +14,23 @@ export const MECHANISM_VOCAB = [
   { tag: "Turret", re: /turret|\bturr\b/i },
   { tag: "Shooter", re: /shooter|flywheel|\bshoot|indexer/i },
   { tag: "Number Plate / Misc", re: /number\s*plates?|team\s*plates?|sign\s*mounts?/i },
+  // Mecanum and tank are mechanically different drivetrains, so they're
+  // separate tags. Most pins just say "drivetrain"/"chassis" without saying
+  // which kind, so those fall into Unspecified rather than being guessed.
+  { tag: "Drivetrain (Mecanum)", re: /mecanum|octocanum|\bmec\b|\blmec\b/i },
+  { tag: "Drivetrain (Tank)", re: /\btank\b|\btread|skid.?steer|\b[68]wd\b/i },
   {
-    tag: "Drivetrain (Mecanum/Tank)",
-    re: /drive\s?train|\bdt\b|chassis|mecanum|octocanum|drive\s?base|\blmec\b|\b[68]wd\b|\bmec\b/i,
+    tag: "Drivetrain (Unspecified)",
+    re: /drive\s?train|\bdt\b|chassis|drive\s?base/i,
   },
 ];
 
 // Display/filter order for the site (Full Robot first, then vocabulary).
 export const ALL_TAGS = [
   FULL_ROBOT,
-  "Drivetrain (Mecanum/Tank)",
+  "Drivetrain (Mecanum)",
+  "Drivetrain (Tank)",
+  "Drivetrain (Unspecified)",
   "Swerve Drive",
   "Intake",
   "Claw / Gripper",
@@ -60,7 +67,13 @@ export function normalizeName(name) {
 
 export function tagsFromText(text) {
   const t = normalizeName(text);
-  return MECHANISM_VOCAB.filter(({ re }) => re.test(t)).map((v) => v.tag);
+  const tags = MECHANISM_VOCAB.filter(({ re }) => re.test(t)).map((v) => v.tag);
+  // "Mecanum Drivetrain" matches both the Mecanum pattern and the generic
+  // Unspecified one; the specific tag wins, so drop the generic fallback.
+  if (tags.includes("Drivetrain (Unspecified)") && (tags.includes("Drivetrain (Mecanum)") || tags.includes("Drivetrain (Tank)"))) {
+    return tags.filter((tag) => tag !== "Drivetrain (Unspecified)");
+  }
+  return tags;
 }
 
 // Tags for a list of part/element names, with the names that triggered each.
