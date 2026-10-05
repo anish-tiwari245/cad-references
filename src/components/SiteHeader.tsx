@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
 import SubmitCadButton from "./SubmitCadButton";
 
@@ -21,7 +22,14 @@ export default function SiteHeader({ titleAs = "div" }: { titleAs?: "h1" | "div"
       <header className="border-b border-border bg-surface">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 sm:px-6 md:flex-row md:items-end md:justify-between lg:px-8">
           <div className="flex items-center gap-3">
-            <TitleTag className="text-3xl font-semibold tracking-tight text-text">FTC CAD Base</TitleTag>
+            <TitleTag className="text-3xl font-semibold tracking-tight text-text">
+              <Link
+                href="/"
+                className="rounded-sm transition-opacity hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              >
+                FTC CAD Base
+              </Link>
+            </TitleTag>
             <ThemeToggle />
           </div>
           <SubmitCadButton />
