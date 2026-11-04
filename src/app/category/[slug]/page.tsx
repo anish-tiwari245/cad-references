@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import CadGrid from "@/components/CadGrid";
-import { getEntries } from "@/lib/store";
+import { getEntries, getViewCounts } from "@/lib/store";
 import { mechanismTagFromSlug, MECHANISM_SLUGS } from "@/lib/categories";
 import { buildMetadata } from "@/lib/seo";
 
@@ -35,6 +35,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   if (!tag) notFound();
 
   const { matches, otherTags } = await matchesFor(tag);
+  const viewsById = await getViewCounts(matches.map((e) => e.id));
 
   return (
     <main>
@@ -50,7 +51,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           {matches.length} CAD file{matches.length === 1 ? "" : "s"}
         </p>
         <div className="mt-4">
-          <CadGrid entries={matches} />
+          <CadGrid entries={matches} viewsById={viewsById} />
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-sm text-text-muted">

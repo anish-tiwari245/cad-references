@@ -15,12 +15,14 @@ function toggleInSet(set: Set<string>, value: string): Set<string> {
 
 export default function CadCatalog({
   entries,
+  viewsById = {},
   seasonOptions,
   mechanismOptions,
   platformOptions,
   programOptions,
 }: {
   entries: CadEntry[];
+  viewsById?: Record<string, number>;
   seasonOptions: string[];
   mechanismOptions: string[];
   platformOptions: string[];
@@ -125,7 +127,7 @@ export default function CadCatalog({
               {filtered.length} of {entries.length} CAD files
             </p>
           </div>
-          <CadGrid entries={filtered} />
+          <CadGrid entries={filtered} viewsById={viewsById} />
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import type { CadEntry } from "@/lib/types";
 import { formatSeasonLabel } from "@/lib/constants";
 import FavoriteButton from "./FavoriteButton";
+import ViewCadButton from "./ViewCadButton";
 
 function Badge({
   children,
@@ -25,7 +26,7 @@ function Badge({
 
 const MAX_SECONDARY_TAGS = 3;
 
-export default function CadCard({ entry }: { entry: CadEntry }) {
+export default function CadCard({ entry, views = 0 }: { entry: CadEntry; views?: number }) {
   const secondaryTags = entry.tags.filter((t) => t !== entry.primaryCategory);
   const visibleTags = secondaryTags.slice(0, MAX_SECONDARY_TAGS);
   const hiddenTags = secondaryTags.slice(MAX_SECONDARY_TAGS);
@@ -76,16 +77,20 @@ export default function CadCard({ entry }: { entry: CadEntry }) {
         )}
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-1">
-          <span className="font-mono text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
+          <div className="flex items-center gap-1.5">
+            <span className="font-mono text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
+            {views > 0 && (
+              <span className="font-mono text-xs text-text-muted">
+                · {views} view{views === 1 ? "" : "s"}
+              </span>
+            )}
+          </div>
           {entry.url ? (
-            <a
-              href={entry.url}
-              target="_blank"
-              rel="noopener noreferrer"
+            <ViewCadButton
+              id={entry.id}
+              url={entry.url}
               className="inline-flex items-center gap-1 rounded-sm border border-accent bg-accent px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-accent-hover hover:border-accent-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-            >
-              View CAD
-            </a>
+            />
           ) : (
             <span className="text-xs text-text-muted">Source unavailable</span>
           )}

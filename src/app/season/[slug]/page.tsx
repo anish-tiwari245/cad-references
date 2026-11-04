@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import CadGrid from "@/components/CadGrid";
-import { getEntries } from "@/lib/store";
+import { getEntries, getViewCounts } from "@/lib/store";
 import { seasonFromSlug, SEASON_SLUGS } from "@/lib/categories";
 import { formatSeasonLabel } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
@@ -37,6 +37,7 @@ export default async function SeasonPage({ params }: { params: Promise<{ slug: s
   if (!season) notFound();
 
   const { matches, otherSeasons } = await matchesFor(season);
+  const viewsById = await getViewCounts(matches.map((e) => e.id));
   const label = formatSeasonLabel(season);
 
   return (
@@ -53,7 +54,7 @@ export default async function SeasonPage({ params }: { params: Promise<{ slug: s
           {matches.length} CAD file{matches.length === 1 ? "" : "s"}
         </p>
         <div className="mt-4">
-          <CadGrid entries={matches} />
+          <CadGrid entries={matches} viewsById={viewsById} />
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-sm text-text-muted">

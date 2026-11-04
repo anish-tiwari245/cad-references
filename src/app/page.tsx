@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import LibraryTabs from "@/components/LibraryTabs";
-import { getEntries } from "@/lib/store";
+import { getEntries, getViewCounts } from "@/lib/store";
 import { getSeasonOptions, getMechanismOptions, getPlatformOptions, getProgramOptions } from "@/lib/data";
 import { MECHANISM_TAGS, CAD_PLATFORMS, PROGRAMS } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
@@ -23,6 +23,7 @@ export default async function Home() {
   // tab and don't have mechanism tags, so filter options only look at CAD files.
   const cadEntries = entries.filter((e) => e.kind !== "resource");
   const resourceEntries = entries.filter((e) => e.kind === "resource");
+  const viewsById = await getViewCounts(cadEntries.map((e) => e.id));
   const seasonOptions = getSeasonOptions(cadEntries);
   const mechanismOptions = getMechanismOptions(cadEntries, MECHANISM_TAGS);
   const platformOptions = getPlatformOptions(cadEntries, CAD_PLATFORMS);
@@ -34,6 +35,7 @@ export default async function Home() {
 
       <LibraryTabs
         cadEntries={cadEntries}
+        viewsById={viewsById}
         resourceEntries={resourceEntries}
         seasonOptions={seasonOptions}
         mechanismOptions={mechanismOptions}

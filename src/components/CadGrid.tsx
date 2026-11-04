@@ -1,7 +1,7 @@
 import type { CadEntry } from "@/lib/types";
 import CadCard from "./CadCard";
 
-export default function CadGrid({ entries }: { entries: CadEntry[] }) {
+export default function CadGrid({ entries, viewsById = {} }: { entries: CadEntry[]; viewsById?: Record<string, number> }) {
   if (entries.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center rounded-md border border-dashed border-border-strong bg-surface px-6 py-20 text-center">
@@ -14,7 +14,7 @@ export default function CadGrid({ entries }: { entries: CadEntry[] }) {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {entries.map((entry) => (
-        <CadCard key={entry.id} entry={entry} />
+        <CadCard key={entry.id} entry={entry} views={viewsById[entry.id] ?? 0} />
       ))}
     </div>
   );

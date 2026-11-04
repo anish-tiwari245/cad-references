@@ -8,6 +8,7 @@ import type { CadEntry, PendingSubmission } from "./types";
 const ENTRIES_KEY = "cad:entries"; // hash: id -> CadEntry
 const ORDER_KEY = "cad:order"; // list of ids, display order (first = shown first)
 const PENDING_KEY = "cad:pending"; // hash: id -> PendingSubmission
+const VIEWS_KEY = "cad:views"; // hash: id -> view count, separate from ENTRIES_KEY so hincrby stays atomic
 const thumbKey = (id: string) => `cad:thumb:${id}`; // fetched Onshape thumbnail, base64
 
 let client: Redis | null | undefined;
@@ -143,6 +144,27 @@ export async function deleteThumbnail(id: string): Promise<void> {
 }
 
 export const thumbnailPath = (id: string, v: number) => `/api/thumb/${id}?v=${v}`;
+
+// Bulk-reads view counts for a page of entries in one round trip. Missing
+// counts (never viewed yet) come back as 0 rather than undefined.
+export async function getViewCounts(ids: string[]): Promise<Record<string, number>> {
+  if (ids.length === 0) return {};
+  const redis = getRedis();
+  if (!redis) return {};
+  try {
+    const counts = await redis.hmget<Record<string, number>>(VIEWS_KEY, ...ids);
+    const result: Record<string, number> = {};
+    for (const id of ids) result[id] = Number(counts?.[id] ?? 0);
+    return result;
+  } catch (err) {
+    console.error("[store] Redis view count read failed:", err);
+    return {};
+  }
+}
+
+export async function incrementViewCount(id: string): Promise<number> {
+  return requireRedis().hincrby(VIEWS_KEY, id, 1);
+}
 
 // Fixed-window counter, used to throttle the public submit endpoint and
 // admin login attempts. Fails open if Redis is down so the site keeps working.

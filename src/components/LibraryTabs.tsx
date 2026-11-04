@@ -7,6 +7,7 @@ import type { CadEntry } from "@/lib/types";
 
 export default function LibraryTabs({
   cadEntries,
+  viewsById = {},
   resourceEntries,
   seasonOptions,
   mechanismOptions,
@@ -14,6 +15,7 @@ export default function LibraryTabs({
   programOptions,
 }: {
   cadEntries: CadEntry[];
+  viewsById?: Record<string, number>;
   resourceEntries: CadEntry[];
   seasonOptions: string[];
   mechanismOptions: string[];
@@ -48,6 +50,7 @@ export default function LibraryTabs({
       {tab === "cad" ? (
         <CadCatalog
           entries={cadEntries}
+          viewsById={viewsById}
           seasonOptions={seasonOptions}
           mechanismOptions={mechanismOptions}
           platformOptions={platformOptions}
