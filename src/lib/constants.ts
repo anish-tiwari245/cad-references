@@ -43,15 +43,15 @@ export function formatSeasonLabel(season: string): string {
 
 export const MECHANISM_TAGS: string[] = [
   "Full Robot",
-  "Drivetrain (Mecanum)",
-  "Drivetrain (Tank)",
-  "Drivetrain (Unspecified)",
+  "Mecanum",
+  "Tank",
   "Swerve Drive",
   "Intake",
   "Claw / Gripper",
   "Linear Slides / Extension",
   "Turret",
   "Shooter",
+  "Undershooter",
   "Differential / PTO",
   "Vector Wheel",
   "Number Plate / Misc",

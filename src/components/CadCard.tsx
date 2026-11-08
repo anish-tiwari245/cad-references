@@ -77,13 +77,15 @@ export default function CadCard({ entry, views = 0 }: { entry: CadEntry; views?:
         )}
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-1">
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-2">
             <span className="font-mono text-xs uppercase tracking-wide text-text-muted">{entry.cadPlatform}</span>
-            {views > 0 && (
-              <span className="font-mono text-xs text-text-muted">
-                · {views} view{views === 1 ? "" : "s"}
-              </span>
-            )}
+            <span className="inline-flex items-center gap-1 font-mono text-xs text-text-muted" title={`${views} view${views === 1 ? "" : "s"}`}>
+              <svg width="13" height="13" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" aria-hidden="true">
+                <path d="M1.5 10S4.5 4 10 4s8.5 6 8.5 6-3 6-8.5 6-8.5-6-8.5-6Z" />
+                <circle cx="10" cy="10" r="2.25" />
+              </svg>
+              {views}
+            </span>
           </div>
           {entry.url ? (
             <ViewCadButton
